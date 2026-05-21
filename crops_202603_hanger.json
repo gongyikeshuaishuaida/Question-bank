@@ -1,0 +1,20 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202603_hanger_p02.png",
+    "box": [2595, 520, 3970, 1860],
+    "output": "attachments/202603杭二_07_图1.png"
+  },
+  {
+    "label": "q14 data and chart",
+    "source": "_pdf_pages/202603_hanger_ocr_p04.png",
+    "box": [250, 1370, 1900, 1800],
+    "output": "attachments/202603杭二_14_图1.png"
+  },
+  {
+    "label": "q15 pixel grid",
+    "source": "_pdf_pages/202603_hanger_ocr_p05.png",
+    "box": [1235, 780, 1605, 1305],
+    "output": "attachments/202603杭二_15_图1.png"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202602_zhoushan_p02.png",
+    "box": [350, 930, 1045, 1480],
+    "output": "attachments/202602舟山_07_图1.png"
+  },
+  {
+    "label": "q14 table outputs",
+    "source": "_pdf_pages/202602_zhoushan_p04.png",
+    "box": [190, 1650, 1035, 1945],
+    "output": "attachments/202602舟山_14_图1.png"
+  },
+  {
+    "label": "q14 bar chart",
+    "source": "_pdf_pages/202602_zhoushan_p05.png",
+    "box": [360, 1035, 1055, 1430],
+    "output": "attachments/202602舟山_14_图2.png"
+  }
+]

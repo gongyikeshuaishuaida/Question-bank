@@ -1,0 +1,154 @@
+filters:
+  and:
+    - file.hasTag("题库/信息技术")
+    - file.ext == "md"
+formulas:
+  难度标签: if(难度 == "简单", "简单", if(难度 == "中等", "中等", "困难"))
+properties:
+  id:
+    displayName: ID
+  题型:
+    displayName: 题型
+  来源:
+    displayName: 来源
+  试卷:
+    displayName: 试卷
+  题号:
+    displayName: 题号
+  难度:
+    displayName: 难度
+  知识点:
+    displayName: 知识点
+  完成次数:
+    displayName: 完成次数
+  正确率:
+    displayName: 正确率
+  状态:
+    displayName: 状态
+  错题原因:
+    displayName: 错题原因
+  图片核验:
+    displayName: 图片核验
+  formula.难度标签:
+    displayName: 难度
+views:
+  - type: table
+    name: 全部题目
+    groupBy:
+      property: 题型
+      direction: ASC
+    order:
+      - file.name
+      - id
+      - 题型
+      - formula.难度标签
+      - 状态
+      - 知识点
+      - 来源
+      - 完成次数
+      - 正确率
+      - 图片核验
+    summaries:
+      完成次数: Sum
+      正确率: Average
+  - type: table
+    name: 未练习
+    filters:
+      and:
+        - 状态 == "未练习"
+    order:
+      - file.name
+      - id
+      - 题型
+      - formula.难度标签
+      - 知识点
+      - 来源
+  - type: table
+    name: 已完成
+    filters:
+      and:
+        - 状态 == "已完成"
+    order:
+      - file.name
+      - id
+      - 题型
+      - formula.难度标签
+      - 知识点
+      - 完成次数
+      - 正确率
+  - type: table
+    name: 需复习
+    filters:
+      and:
+        - 状态 == "需复习"
+    order:
+      - file.name
+      - id
+      - 题型
+      - 知识点
+      - 完成次数
+      - 正确率
+      - 错题原因
+  - type: table
+    name: 错题
+    filters:
+      and:
+        - 状态 == "错题"
+    order:
+      - file.name
+      - id
+      - 题型
+      - 知识点
+      - 错题原因
+      - 完成次数
+      - 正确率
+  - type: table
+    name: 图片待核验
+    filters:
+      and:
+        - 图片核验 == "待核验"
+    order:
+      - file.name
+      - id
+      - 题型
+      - 知识点
+      - 来源
+  - type: table
+    name: 按知识点
+    groupBy:
+      property: 知识点
+      direction: ASC
+    order:
+      - file.name
+      - id
+      - 题型
+      - formula.难度标签
+      - 状态
+      - 完成次数
+      - 正确率
+  - type: table
+    name: 选择题
+    filters:
+      and:
+        - 题型 == "选择题"
+    order:
+      - file.name
+      - id
+      - formula.难度标签
+      - 状态
+      - 来源
+      - 完成次数
+      - 正确率
+  - type: table
+    name: 填空题
+    filters:
+      and:
+        - 题型 == "填空题"
+    order:
+      - file.name
+      - id
+      - formula.难度标签
+      - 状态
+      - 来源
+      - 完成次数
+      - 正确率
