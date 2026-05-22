@@ -1,7 +1,8 @@
 filters:
   and:
-    - file.hasTag("题库/信息技术")
     - file.ext == "md"
+    - id != null
+    - 试卷 != null
 formulas:
   难度标签: if(难度 == "简单", "简单", if(难度 == "中等", "中等", "困难"))
 properties:
@@ -48,6 +49,9 @@ views:
       - 完成次数
       - 正确率
       - 图片核验
+    sort:
+      - property: 完成次数
+        direction: DESC
     summaries:
       完成次数: Sum
       正确率: Average
