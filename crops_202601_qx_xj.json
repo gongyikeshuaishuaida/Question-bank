@@ -1,0 +1,11 @@
+[
+  {"label":"qx q07 flowchart","source":"_pdf_pages/202601_qx_p02.png","box":[625,75,920,430],"output":"attachments/202601浙江七校_07_图1.png"},
+  {"label":"qx q09 tree table","source":"_pdf_pages/202601_qx_p02.png","box":[35,445,555,535],"output":"attachments/202601浙江七校_09_图1.png"},
+  {"label":"qx q14 table chart","source":"_pdf_pages/202601_qx_p04.png","box":[190,955,760,1155],"output":"attachments/202601浙江七校_14_图1.png"},
+  {"label":"qx q15 example table","source":"_pdf_pages/202601_qx_p05.png","box":[250,660,690,860],"output":"attachments/202601浙江七校_15_图1.png"},
+  {"label":"xj q07 flowchart","source":"_pdf_pages/202601_xj_p01.png","box":[3600,5000,5200,6900],"output":"attachments/202601学军中学_07_图1.png"},
+  {"label":"xj q10 rec code","source":"_pdf_pages/202601_xj_p02.png","box":[500,1050,4700,2150],"output":"attachments/202601学军中学_10_图1.png"},
+  {"label":"xj q13 table","source":"_pdf_pages/202601_xj_p03.png","box":[900,950,4700,2450],"output":"attachments/202601学军中学_13_图1.png"},
+  {"label":"xj q14 data table","source":"_pdf_pages/202601_xj_p04.png","box":[650,2450,4750,3600],"output":"attachments/202601学军中学_14_图1.png"},
+  {"label":"xj q15 tables","source":"_pdf_pages/202601_xj_p05.png","box":[950,1180,4300,2600],"output":"attachments/202601学军中学_15_图1.png"}
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202505_bd_p02.png",
+    "box": [700, 515, 1065, 955],
+    "output": "attachments/202505北斗星盟_07_图1.png"
+  },
+  {
+    "label": "q13 chart",
+    "source": "_pdf_pages/202505_bd_p03.png",
+    "box": [650, 805, 1080, 1200],
+    "output": "attachments/202505北斗星盟_13_图1.png"
+  },
+  {
+    "label": "q14 table",
+    "source": "_pdf_pages/202505_bd_p04.png",
+    "box": [205, 875, 585, 1195],
+    "output": "attachments/202505北斗星盟_14_图1.png"
+  },
+  {
+    "label": "q14 chart",
+    "source": "_pdf_pages/202505_bd_p04.png",
+    "box": [615, 885, 1060, 1210],
+    "output": "attachments/202505北斗星盟_14_图2.png"
+  },
+  {
+    "label": "q15 shelf",
+    "source": "_pdf_pages/202505_bd_p05.png",
+    "box": [395, 620, 690, 835],
+    "output": "attachments/202505北斗星盟_15_图1.png"
+  }
+]

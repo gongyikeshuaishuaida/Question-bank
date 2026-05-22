@@ -1,0 +1,26 @@
+[
+  {
+    "label": "q07 flowchart options",
+    "source": "_pdf_pages/202512jingcheng_p02.png",
+    "box": [66, 333, 1080, 956],
+    "output": "attachments/202512精诚联盟_07_图1.png"
+  },
+  {
+    "label": "q13 text image",
+    "source": "_pdf_pages/202512jingcheng_p04.png",
+    "box": [704, 594, 1026, 900],
+    "output": "attachments/202512精诚联盟_13_图1.png"
+  },
+  {
+    "label": "q14 data table",
+    "source": "_pdf_pages/202512jingcheng_p05.png",
+    "box": [150, 790, 612, 1040],
+    "output": "attachments/202512精诚联盟_14_图1.png"
+  },
+  {
+    "label": "q14 bar chart",
+    "source": "_pdf_pages/202512jingcheng_p05.png",
+    "box": [694, 780, 958, 1010],
+    "output": "attachments/202512精诚联盟_14_图2.png"
+  }
+]

@@ -54,7 +54,11 @@ def section_text(text: str, heading: str) -> str:
 
 
 def iter_notes(root: Path, prefix: str | None) -> list[Path]:
-    files = sorted(root.rglob("*.md"))
+    files = sorted(
+        path
+        for path in root.rglob("*.md")
+        if path.parent.name[:2].isdigit()
+    )
     if prefix:
         files = [path for path in files if path.name.startswith(prefix)]
     return [
