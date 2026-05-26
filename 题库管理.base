@@ -36,7 +36,7 @@ views:
   - type: table
     name: 全部题目
     groupBy:
-      property: 题型
+      property: 来源
       direction: ASC
     order:
       - file.name
@@ -55,6 +55,7 @@ views:
     summaries:
       完成次数: Sum
       正确率: Average
+      id: Unique
   - type: table
     name: 未练习
     filters:

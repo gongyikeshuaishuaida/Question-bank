@@ -1,0 +1,20 @@
+[
+  {
+    "label": "zdb q06 flowchart",
+    "source": "_pdf_pages/202511_zdb_p02.png",
+    "box": [812, 110, 1045, 530],
+    "output": "attachments/202511浙东北_06_图1.png"
+  },
+  {
+    "label": "zdb q14 table",
+    "source": "_pdf_pages/202511_zdb_p04.png",
+    "box": [185, 1125, 960, 1435],
+    "output": "attachments/202511浙东北_14_图1.png"
+  },
+  {
+    "label": "zdb q14 charts",
+    "source": "_pdf_pages/202511_zdb_p05.png",
+    "box": [70, 105, 1075, 440],
+    "output": "attachments/202511浙东北_14_图2.png"
+  }
+]
