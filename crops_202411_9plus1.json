@@ -1,0 +1,26 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202411_9plus1_p02.png",
+    "box": [872, 210, 1168, 596],
+    "output": "attachments/2024119+1联盟_07_图1.png"
+  },
+  {
+    "label": "q14 table",
+    "source": "_pdf_pages/202411_9plus1_p04.png",
+    "box": [170, 145, 640, 470],
+    "output": "attachments/2024119+1联盟_14_图1.png"
+  },
+  {
+    "label": "q14 chart",
+    "source": "_pdf_pages/202411_9plus1_p04.png",
+    "box": [700, 155, 1160, 470],
+    "output": "attachments/2024119+1联盟_14_图2.png"
+  },
+  {
+    "label": "q15 run",
+    "source": "_pdf_pages/202411_9plus1_p05.png",
+    "box": [405, 335, 850, 460],
+    "output": "attachments/2024119+1联盟_15_图1.png"
+  }
+]

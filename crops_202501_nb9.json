@@ -1,0 +1,26 @@
+[
+  {
+    "label": "202501 ningbo9 q13 figure 1",
+    "source": "_pdf_pages/202501_nb9_p03.png",
+    "box": [384, 846, 766, 1110],
+    "output": "attachments/202501宁波九校_13_图1.png"
+  },
+  {
+    "label": "202501 ningbo9 q13 figure 2",
+    "source": "_pdf_pages/202501_nb9_p04.png",
+    "box": [282, 158, 870, 602],
+    "output": "attachments/202501宁波九校_13_图2.png"
+  },
+  {
+    "label": "202501 ningbo9 q14 figure 1",
+    "source": "_pdf_pages/202501_nb9_p04.png",
+    "box": [878, 922, 1036, 1072],
+    "output": "attachments/202501宁波九校_14_图1.png"
+  },
+  {
+    "label": "202501 ningbo9 q14 figure 2",
+    "source": "_pdf_pages/202501_nb9_p05.png",
+    "box": [818, 378, 1048, 602],
+    "output": "attachments/202501宁波九校_14_图2.png"
+  }
+]

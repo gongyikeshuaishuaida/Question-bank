@@ -1,0 +1,86 @@
+[
+  {
+    "label": "taizhou q04 flowchart",
+    "source": "_pdf_pages/202501_taizhou_p02.png",
+    "box": [300, 500, 1135, 968],
+    "output": "attachments/202501台州_04_图1.png"
+  },
+  {
+    "label": "taizhou q13 flowchart",
+    "source": "_pdf_pages/202501_taizhou_p03.png",
+    "box": [390, 1365, 1110, 1483],
+    "output": "attachments/202501台州_13_图1.png"
+  },
+  {
+    "label": "taizhou q14 table",
+    "source": "_pdf_pages/202501_taizhou_p04.png",
+    "box": [350, 795, 1108, 1038],
+    "output": "attachments/202501台州_14_图1.png"
+  },
+  {
+    "label": "taizhou q14 chart",
+    "source": "_pdf_pages/202501_taizhou_p04.png",
+    "box": [690, 1180, 1225, 1538],
+    "output": "attachments/202501台州_14_图2.png"
+  },
+  {
+    "label": "taizhou q15 data",
+    "source": "_pdf_pages/202501_taizhou_p05.png",
+    "box": [365, 780, 1062, 1018],
+    "output": "attachments/202501台州_15_图1.png"
+  },
+  {
+    "label": "taizhou q15 example",
+    "source": "_pdf_pages/202501_taizhou_p05.png",
+    "box": [280, 1248, 1106, 1338],
+    "output": "attachments/202501台州_15_图2.png"
+  },
+  {
+    "label": "taizhou q15 methods",
+    "source": "_pdf_pages/202501_taizhou_p05.png",
+    "box": [330, 1515, 1048, 1660],
+    "output": "attachments/202501台州_15_图3.png"
+  },
+  {
+    "label": "quzhou q01 material image",
+    "source": "_pdf_pages/202501_quzhou_p01.png",
+    "box": [822, 705, 1008, 952],
+    "output": "attachments/202501衢州_01_图1.png"
+  },
+  {
+    "label": "quzhou q05 material image",
+    "source": "_pdf_pages/202501_quzhou_p02.png",
+    "box": [816, 455, 1000, 705],
+    "output": "attachments/202501衢州_05_图1.png"
+  },
+  {
+    "label": "quzhou q10 flowchart",
+    "source": "_pdf_pages/202501_quzhou_p03.png",
+    "box": [750, 126, 984, 548],
+    "output": "attachments/202501衢州_10_图1.png"
+  },
+  {
+    "label": "quzhou q14 parking detector",
+    "source": "_pdf_pages/202501_quzhou_p04.png",
+    "box": [760, 990, 1028, 1180],
+    "output": "attachments/202501衢州_14_图1.png"
+  },
+  {
+    "label": "quzhou q14 table",
+    "source": "_pdf_pages/202501_quzhou_p05.png",
+    "box": [188, 180, 936, 340],
+    "output": "attachments/202501衢州_14_图2.png"
+  },
+  {
+    "label": "quzhou q15 truck",
+    "source": "_pdf_pages/202501_quzhou_p05.png",
+    "box": [175, 1015, 625, 1195],
+    "output": "attachments/202501衢州_15_图1.png"
+  },
+  {
+    "label": "quzhou q15 data table",
+    "source": "_pdf_pages/202501_quzhou_p05.png",
+    "box": [695, 1010, 970, 1195],
+    "output": "attachments/202501衢州_15_图2.png"
+  }
+]

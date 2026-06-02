@@ -1,0 +1,26 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202405_bd_p02.png",
+    "box": [700, 95, 1070, 525],
+    "output": "attachments/202405北斗星盟_07_图1.png"
+  },
+  {
+    "label": "q13 system diagram",
+    "source": "_pdf_pages/202405_bd_p03.png",
+    "box": [80, 1025, 1080, 1238],
+    "output": "attachments/202405北斗星盟_13_图1.png"
+  },
+  {
+    "label": "q14 table a",
+    "source": "_pdf_pages/202405_bd_p04.png",
+    "box": [108, 992, 590, 1195],
+    "output": "attachments/202405北斗星盟_14_图1.png"
+  },
+  {
+    "label": "q14 table b",
+    "source": "_pdf_pages/202405_bd_p04.png",
+    "box": [610, 992, 1094, 1195],
+    "output": "attachments/202405北斗星盟_14_图2.png"
+  }
+]
