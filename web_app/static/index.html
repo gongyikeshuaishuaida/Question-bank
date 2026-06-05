@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>题库工作台</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>题库工作台</h1>
+        <p id="metaLine">正在读取题库...</p>
+      </div>
+      <nav class="tabs" aria-label="主视图">
+        <button class="tab active" data-view="browse">题库</button>
+        <button class="tab" data-view="import">导入</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="browseView" class="view active">
+        <aside class="filterbar">
+          <label>
+            试卷
+            <select id="paperFilter"></select>
+          </label>
+          <label>
+            知识点
+            <select id="knowledgeFilter"></select>
+          </label>
+          <label>
+            题型
+            <select id="typeFilter"></select>
+          </label>
+          <label>
+            状态
+            <select id="statusFilter"></select>
+          </label>
+          <label class="search">
+            搜索
+            <input id="searchBox" type="search" placeholder="题号、试卷、正文">
+          </label>
+          <button id="reloadBtn" type="button">刷新</button>
+        </aside>
+
+        <div class="workspace">
+          <section class="list-pane" aria-label="题目列表">
+            <div class="pane-title">
+              <strong id="resultCount">0 题</strong>
+              <button id="clearSelectedBtn" type="button">清空已选</button>
+            </div>
+            <div id="questionList" class="question-list"></div>
+          </section>
+
+          <section class="detail-pane" aria-label="题目详情">
+            <div id="detailEmpty" class="empty">选择一道题查看内容</div>
+            <article id="questionDetail" class="question-detail hidden"></article>
+            <div id="progressPanel" class="progress-panel hidden">
+              <label>状态
+                <select id="progressStatus">
+                  <option value="未练习">未练习</option>
+                  <option value="已完成">已完成</option>
+                  <option value="需复习">需复习</option>
+                  <option value="错题">错题</option>
+                </select>
+              </label>
+              <label>完成次数
+                <input id="progressCount" type="number" min="0" step="1">
+              </label>
+              <label>正确率
+                <input id="progressAccuracy" type="text" placeholder="0.8">
+              </label>
+              <label>错题原因
+                <input id="mistakeReason" type="text">
+              </label>
+              <button id="saveProgressBtn" type="button">保存状态</button>
+            </div>
+          </section>
+
+          <aside class="set-pane" aria-label="组卷">
+            <div class="pane-title">
+              <strong>已选题目</strong>
+              <span id="selectedCount">0</span>
+            </div>
+            <div id="selectedList" class="selected-list"></div>
+            <label class="checkline">
+              <input id="includeAnswers" type="checkbox">
+              导出答案解析
+            </label>
+            <button id="exportBtn" type="button">导出练习卷</button>
+            <textarea id="exportOutput" readonly></textarea>
+          </aside>
+        </div>
+      </section>
+
+      <section id="importView" class="view">
+        <form id="importForm" class="import-form">
+          <label>年月
+            <input name="year_month" required pattern="\\d{6}" placeholder="202606">
+          </label>
+          <label>组织
+            <input name="organization" required placeholder="学校或联盟">
+          </label>
+          <label>类型
+            <input name="exam_type" required placeholder="月考 / 期中 / 期末">
+          </label>
+          <label>试卷 PDF
+            <input name="paper_pdf" required type="file" accept="application/pdf">
+          </label>
+          <label>答案 PDF
+            <input name="answer_pdf" type="file" accept="application/pdf">
+          </label>
+          <label class="checkline">
+            <input name="force_ocr" type="checkbox" checked>
+            使用 OCR
+          </label>
+          <button type="submit">生成草稿</button>
+        </form>
+
+        <div class="import-workspace">
+          <section class="pages-pane">
+            <div class="pane-title">
+              <strong>页面</strong>
+              <span id="importStatus"></span>
+            </div>
+            <div id="pageList" class="page-list"></div>
+          </section>
+
+          <section class="drafts-pane">
+            <div class="pane-title">
+              <strong>草稿</strong>
+              <button id="commitImportBtn" type="button" disabled>提交入库</button>
+            </div>
+            <div id="draftList" class="draft-list"></div>
+          </section>
+
+          <section class="draft-editor">
+            <div id="draftEmpty" class="empty">选择一条草稿审核</div>
+            <form id="draftForm" class="hidden">
+              <label>题号
+                <input name="number">
+              </label>
+              <label>题型
+                <select name="question_type">
+                  <option>选择题</option>
+                  <option>填空题</option>
+                </select>
+              </label>
+              <label>难度
+                <select name="difficulty">
+                  <option>简单</option>
+                  <option selected>中等</option>
+                  <option>困难</option>
+                </select>
+              </label>
+              <label>知识点
+                <select name="knowledge" multiple></select>
+              </label>
+              <label>题目正文
+                <textarea name="body"></textarea>
+              </label>
+              <label>答案
+                <textarea name="answer"></textarea>
+              </label>
+              <label>解析
+                <textarea name="analysis"></textarea>
+              </label>
+              <label>图片核验
+                <select name="image_check">
+                  <option>无图片</option>
+                  <option>待核验</option>
+                  <option>已通过</option>
+                </select>
+              </label>
+              <label class="checkline">
+                <input name="accepted" type="checkbox">
+                提交时写入这道题
+              </label>
+              <fieldset class="crop-box">
+                <legend>裁图</legend>
+                <input name="cropPage" type="number" min="1" placeholder="页">
+                <input name="cropBox" type="text" placeholder="left,top,right,bottom">
+                <input name="cropLabel" type="text" placeholder="图1">
+                <button id="addCropBtn" type="button">加入图片</button>
+                <div id="cropList"></div>
+              </fieldset>
+              <button type="submit">保存草稿</button>
+            </form>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
