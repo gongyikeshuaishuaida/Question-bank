@@ -1,0 +1,20 @@
+[
+  {
+    "label": "beidou q07 flowchart",
+    "source": "_pdf_pages/202605_beidou_p02.png",
+    "box": [690, 585, 1060, 1110],
+    "output": "attachments/202605北斗星盟_07_图1.png"
+  },
+  {
+    "label": "beidou q12 linked list tables",
+    "source": "_pdf_pages/202605_beidou_p03.png",
+    "box": [650, 600, 1010, 910],
+    "output": "attachments/202605北斗星盟_12_图1.png"
+  },
+  {
+    "label": "beidou q14 data and chart",
+    "source": "_pdf_pages/202605_beidou_p04.png",
+    "box": [270, 1185, 940, 1510],
+    "output": "attachments/202605北斗星盟_14_图1.png"
+  }
+]

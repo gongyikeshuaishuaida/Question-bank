@@ -1,0 +1,32 @@
+[
+  {
+    "label": "qixiao q07 flowchart",
+    "source": "_pdf_pages/202605_qixiao_p02.png",
+    "box": [790, 360, 1180, 825],
+    "output": "attachments/202605浙江七校_07_图1.png"
+  },
+  {
+    "label": "qixiao q11 linked list tables",
+    "source": "_pdf_pages/202605_qixiao_p02.png",
+    "box": [650, 1320, 1165, 1545],
+    "output": "attachments/202605浙江七校_11_图1.png"
+  },
+  {
+    "label": "qixiao q13 data and output tables",
+    "source": "_pdf_pages/202605_qixiao_p04.png",
+    "box": [115, 160, 1230, 445],
+    "output": "attachments/202605浙江七校_13_图1.png"
+  },
+  {
+    "label": "qixiao q14 running table",
+    "source": "_pdf_pages/202605_qixiao_p04.png",
+    "box": [115, 1280, 1120, 1375],
+    "output": "attachments/202605浙江七校_14_图1.png"
+  },
+  {
+    "label": "qixiao q15 scheduling tables",
+    "source": "_pdf_pages/202605_qixiao_p05.png",
+    "box": [95, 1035, 1310, 1275],
+    "output": "attachments/202605浙江七校_15_图1.png"
+  }
+]
