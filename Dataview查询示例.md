@@ -17,6 +17,7 @@ type: reference
 ```dataview
 TABLE
   id AS "ID",
+  年级 AS "年级",
   题型 AS "题型",
   难度 AS "难度",
   状态 AS "状态",
@@ -36,6 +37,7 @@ SORT id ASC
 ```dataview
 TABLE
   id AS "ID",
+  年级 AS "年级",
   难度 AS "难度",
   状态 AS "状态",
   来源 AS "来源"
@@ -47,6 +49,7 @@ SORT id ASC
 ```dataview
 TABLE
   id AS "ID",
+  年级 AS "年级",
   难度 AS "难度",
   状态 AS "状态",
   来源 AS "来源"
@@ -62,6 +65,7 @@ SORT id ASC
 ```dataview
 TABLE
   id AS "ID",
+  年级 AS "年级",
   题型 AS "题型",
   难度 AS "难度",
   状态 AS "状态"

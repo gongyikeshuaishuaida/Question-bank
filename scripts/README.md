@@ -10,7 +10,7 @@ py -X utf8 scripts/render_pdf_pages.py "试卷/202604-金华十校-期中.pdf" -
 
 ## Crop question images
 
-Create a JSON crop spec:
+Create a JSON crop spec under `crop_specs/`:
 
 ```json
 [
@@ -26,7 +26,7 @@ Create a JSON crop spec:
 Run:
 
 ```powershell
-py -X utf8 scripts/crop_question_images.py crops.json
+py -X utf8 scripts/crop_question_images.py crop_specs/crops_202604_jinhua.json
 ```
 
 The crop box is `[left, top, right, bottom]` in rendered PNG pixels.
