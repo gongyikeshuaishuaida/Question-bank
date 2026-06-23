@@ -1,0 +1,44 @@
+[
+  {
+    "label": "q07 binary tree",
+    "source": "_pdf_pages/202506_nb9_g2_final_p02.png",
+    "box": [690, 665, 870, 890],
+    "output": "attachments/202506宁波九校高二_07_图1.png"
+  },
+  {
+    "label": "q08 flowchart",
+    "source": "_pdf_pages/202506_nb9_g2_final_p02.png",
+    "box": [860, 570, 1135, 1110],
+    "output": "attachments/202506宁波九校高二_08_图1.png"
+  },
+  {
+    "label": "q09 code options",
+    "source": "_pdf_pages/202506_nb9_g2_final_p02.png",
+    "box": [100, 1180, 1085, 1433],
+    "output": "attachments/202506宁波九校高二_09_图1.png"
+  },
+  {
+    "label": "q10 table and output",
+    "source": "_pdf_pages/202506_nb9_g2_final_p03.png",
+    "box": [190, 225, 970, 460],
+    "output": "attachments/202506宁波九校高二_10_图1.png"
+  },
+  {
+    "label": "q13 radix buckets",
+    "source": "_pdf_pages/202506_nb9_g2_final_p04.png",
+    "box": [230, 1045, 920, 1228],
+    "output": "attachments/202506宁波九校高二_13_图1.png"
+  },
+  {
+    "label": "q14 system diagram",
+    "source": "_pdf_pages/202506_nb9_g2_final_p05.png",
+    "box": [185, 790, 955, 1068],
+    "output": "attachments/202506宁波九校高二_14_图1.png"
+  },
+  {
+    "label": "q15 sample run",
+    "source": "_pdf_pages/202506_nb9_g2_final_p06.png",
+    "box": [765, 615, 1065, 1255],
+    "output": "attachments/202506宁波九校高二_15_图1.png"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202604_taizhou_g3_er/202604_taizhou_g3_er_p02.png",
+    "box": [648, 75, 1015, 470],
+    "output": "attachments/202604台州高三_07_图1.png"
+  },
+  {
+    "label": "q14 table and line chart",
+    "source": "_pdf_pages/202604_taizhou_g3_er/202604_taizhou_g3_er_p04.png",
+    "box": [55, 305, 1020, 615],
+    "output": "attachments/202604台州高三_14_图1.png"
+  }
+]
