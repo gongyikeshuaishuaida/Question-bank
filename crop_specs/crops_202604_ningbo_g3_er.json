@@ -1,0 +1,20 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202604_ningbo_g3_er/202604_ningbo_g3_er_p02.png",
+    "box": [790, 420, 1270, 900],
+    "output": "attachments/202604宁波高三_07_图1.png"
+  },
+  {
+    "label": "q12 matrix",
+    "source": "_pdf_pages/202604_ningbo_g3_er/202604_ningbo_g3_er_p03.png",
+    "box": [720, 1120, 1090, 1405],
+    "output": "attachments/202604宁波高三_12_图1.png"
+  },
+  {
+    "label": "q13 data and chart",
+    "source": "_pdf_pages/202604_ningbo_g3_er/202604_ningbo_g3_er_p04.png",
+    "box": [130, 1260, 1160, 1715],
+    "output": "attachments/202604宁波高三_13_图1.png"
+  }
+]
