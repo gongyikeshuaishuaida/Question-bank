@@ -1,0 +1,14 @@
+[
+  {
+    "label": "202601宁波九校高二期末-14-题图1",
+    "source": "_pdf_pages/202601_ningbo_jiuxiao_g2_p04.png",
+    "output": "attachments/202601宁波九校高二期末_14_题图1.png",
+    "box": [175, 635, 980, 952]
+  },
+  {
+    "label": "202601宁波九校高二期末-15-题图1",
+    "source": "_pdf_pages/202601_ningbo_jiuxiao_g2_p05.png",
+    "output": "attachments/202601宁波九校高二期末_15_题图1.png",
+    "box": [105, 780, 1045, 1098]
+  }
+]

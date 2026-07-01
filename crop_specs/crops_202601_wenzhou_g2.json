@@ -1,0 +1,14 @@
+[
+  {
+    "label": "202601温州高二期末-14-题图1",
+    "source": "_pdf_pages/202601_wenzhou_g2_p04.png",
+    "output": "attachments/202601温州高二期末_14_题图1.png",
+    "box": [245, 1095, 1210, 1475]
+  },
+  {
+    "label": "202601温州高二期末-15-题图1",
+    "source": "_pdf_pages/202601_wenzhou_g2_p05.png",
+    "output": "attachments/202601温州高二期末_15_题图1.png",
+    "box": [500, 1225, 820, 1418]
+  }
+]

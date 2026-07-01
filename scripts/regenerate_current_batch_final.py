@@ -2717,6 +2717,17 @@ def material_preface(text: str) -> str:
     return ""
 
 
+def material_body(text: str) -> str:
+    text = material_preface(text)
+    text = re.sub(
+        r"^阅读[^\n]{0,40}材料[^\n]*?(?:回答|完成)第\s*\d+\s*(?:至第?|[-~－—–])\s*\d+\s*题[。:：]?\s*",
+        "",
+        text,
+        count=1,
+    )
+    return text.strip()
+
+
 def split_questions(text: str, max_q: int) -> tuple[str, dict[int, str]]:
     text = normalize_text(text)
     section_start_candidates = [
@@ -3046,20 +3057,17 @@ def remove_existing_targets(papers: list[Paper]) -> None:
 
 def compose_questions(paper: Paper, preface: str, chunks: dict[int, str]) -> dict[int, str]:
     output: dict[int, str] = {}
-    grouped: set[int] = set()
     for start, end in paper.groups:
-        parts = []
-        cleaned_preface = material_preface(preface)
-        if cleaned_preface:
-            parts.append(cleaned_preface)
-        parts.append(f"阅读材料，回答第 {start} 至 {end} 题。")
+        cleaned_preface = material_body(preface)
         for q in range(start, end + 1):
+            parts = [f"阅读下列材料，回答第 {q:02d} 题。"]
+            if cleaned_preface:
+                parts.append(cleaned_preface)
             if q in chunks:
                 parts.append(chunks[q])
-                grouped.add(q)
-        group_text = "\n\n".join(parts)
-        for q in range(start, end + 1):
-            output[q] = group_text
+            else:
+                parts.append(fallback_text(paper, q))
+            output[q] = "\n\n".join(parts)
     for q in range(1, paper.q_count + 1):
         if q not in output:
             output[q] = chunks.get(q, fallback_text(paper, q))
@@ -3067,12 +3075,7 @@ def compose_questions(paper: Paper, preface: str, chunks: dict[int, str]) -> dic
 
 
 def images_for_question(paper: Paper, q: int, crop_refs: dict[int, list[str]]) -> list[str]:
-    names: list[str] = []
-    for start, end in paper.groups:
-        if start <= q <= end:
-            for grouped_q in range(start, end + 1):
-                names.extend(crop_refs.get(grouped_q, []))
-    names.extend(crop_refs.get(q, []))
+    names: list[str] = crop_refs.get(0, []) + crop_refs.get(q, [])
     unique: list[str] = []
     seen: set[str] = set()
     for name in names:

@@ -1,0 +1,20 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202601_zhoushan_g2_p02.png",
+    "box": [285, 735, 835, 1210],
+    "output": "attachments/202601舟山高二期末_07_题图1.png"
+  },
+  {
+    "label": "q14 tables a b",
+    "source": "_pdf_pages/202601_zhoushan_g2_p04.png",
+    "box": [175, 1320, 825, 1515],
+    "output": "attachments/202601舟山高二期末_14_题图1.png"
+  },
+  {
+    "label": "q14 chart c",
+    "source": "_pdf_pages/202601_zhoushan_g2_p05.png",
+    "box": [330, 820, 815, 1138],
+    "output": "attachments/202601舟山高二期末_14_题图2.png"
+  }
+]

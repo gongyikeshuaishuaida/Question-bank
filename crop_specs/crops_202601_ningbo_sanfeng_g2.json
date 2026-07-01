@@ -1,0 +1,14 @@
+[
+  {
+    "label": "202601宁波三锋高二期末-09-题图1",
+    "source": "_pdf_pages/202601_ningbo_sanfeng_g2_p02.png",
+    "output": "attachments/202601宁波三锋高二期末_09_题图1.png",
+    "box": [450, 960, 830, 1435]
+  },
+  {
+    "label": "202601宁波三锋高二期末-14-题图1",
+    "source": "_pdf_pages/202601_ningbo_sanfeng_g2_p04.png",
+    "output": "attachments/202601宁波三锋高二期末_14_题图1.png",
+    "box": [105, 950, 1085, 1235]
+  }
+]

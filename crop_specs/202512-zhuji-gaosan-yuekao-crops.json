@@ -1,0 +1,20 @@
+[
+  {
+    "label": "q14 figure a appcheck table",
+    "source": "_pdf_pages/202512-zhuji/202512zhuji_p04.png",
+    "box": [175, 985, 1005, 1230],
+    "output": "attachments/202512诸暨统测高三月考_14_图1.png"
+  },
+  {
+    "label": "q14 figure b bar chart",
+    "source": "_pdf_pages/202512-zhuji/202512zhuji_p05.png",
+    "box": [765, 245, 1135, 650],
+    "output": "attachments/202512诸暨统测高三月考_14_图2.png"
+  },
+  {
+    "label": "q15 used seats table",
+    "source": "_pdf_pages/202512-zhuji/202512zhuji_p05.png",
+    "box": [700, 710, 1130, 938],
+    "output": "attachments/202512诸暨统测高三月考_15_图1.png"
+  }
+]

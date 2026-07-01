@@ -38,21 +38,14 @@ views:
   - type: table
     name: 全部题目
     groupBy:
-      property: 来源
+      property: 试卷
       direction: ASC
     order:
       - file.name
-      - id
-      - 题型
-      - 年级
-      - formula.难度标签
-      - 状态
       - 知识点
-      - 来源
-      - 完成次数
-      - 正确率
-      - 图片核验
     sort:
+      - property: file.name
+        direction: DESC
       - property: 完成次数
         direction: DESC
     summaries:
