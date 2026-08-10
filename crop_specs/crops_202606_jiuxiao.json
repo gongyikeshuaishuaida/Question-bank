@@ -1,0 +1,26 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202606_jiuxiao/202606_jiuxiao_p02.png",
+    "box": [620, 130, 1080, 645],
+    "output": "attachments/202606九校高二_07_图1.png"
+  },
+  {
+    "label": "q13 system architecture",
+    "source": "_pdf_pages/202606_jiuxiao/202606_jiuxiao_p03.png",
+    "box": [85, 676, 1115, 910],
+    "output": "attachments/202606九校高二_13_图1.png"
+  },
+  {
+    "label": "q13 csv data",
+    "source": "_pdf_pages/202606_jiuxiao/202606_jiuxiao_p04.png",
+    "box": [105, 335, 565, 665],
+    "output": "attachments/202606九校高二_13_图2.png"
+  },
+  {
+    "label": "q13 chart",
+    "source": "_pdf_pages/202606_jiuxiao/202606_jiuxiao_p04.png",
+    "box": [575, 328, 1055, 665],
+    "output": "attachments/202606九校高二_13_图3.png"
+  }
+]

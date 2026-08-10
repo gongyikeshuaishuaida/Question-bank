@@ -1,0 +1,14 @@
+[
+  {
+    "source": "_pdf_pages/downloads11_20_ningbo_g3/page_p02.png",
+    "box": [880, 130, 1148, 455],
+    "output": "attachments/202504宁波高三_07_图1.png",
+    "label": "202504 宁波高三二模第7题字符串比较流程图"
+  },
+  {
+    "source": "_mineru_output/images/475aea40bf605edeb434b0ebd04f1a229dce0402410ed3e84ecb0fda36113667.jpg",
+    "box": [0, 0, 817, 262],
+    "output": "attachments/202504宁波高三_14_图a.jpg",
+    "label": "202504 宁波高三二模第14题早读分贝监测系统结构图"
+  }
+]

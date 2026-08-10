@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1050" viewBox="0 0 1800 1050">
+  <defs>
+    <style>
+      text { font-family: "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #17324d; }
+      .title { font-size: 50px; font-weight: 700; }
+      .root { font-size: 40px; font-weight: 700; }
+      .branch { font-size: 29px; font-weight: 700; }
+      .leaf { font-size: 22px; }
+      .small { font-size: 20px; fill: #5b6d7c; }
+      .inverse { fill: #ffffff; }
+    </style>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#16324f" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="1800" height="1050" fill="#f7fafc"/>
+  <rect x="45" y="35" width="1710" height="82" rx="20" fill="#173f66"/>
+  <text x="900" y="88" text-anchor="middle" class="title inverse">信息系统复习知识图谱：先抓数据流，再定位知识点</text>
+  <g filter="url(#s)">
+    <circle cx="900" cy="525" r="138" fill="#173f66"/>
+    <text x="900" y="512" text-anchor="middle" class="root inverse">信息系统</text>
+    <text x="900" y="553" text-anchor="middle" class="leaf inverse">核心：数据流 + 控制流</text>
+  </g>
+  <g fill="none" stroke-width="6" stroke-linecap="round">
+    <path d="M815 415L565 245" stroke="#2878c7"/>
+    <path d="M985 415L1235 245" stroke="#5977b8"/>
+    <path d="M762 525H430" stroke="#20966f"/>
+    <path d="M1038 525H1370" stroke="#e06b32"/>
+    <path d="M815 635L565 805" stroke="#8b65b1"/>
+    <path d="M985 635L1235 805" stroke="#c38a2d"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="250" y="135" width="520" height="200" rx="24" fill="#eaf4ff" stroke="#2878c7" stroke-width="3"/>
+    <text x="510" y="183" text-anchor="middle" class="branch">① 组成与硬件</text>
+    <text x="510" y="225" text-anchor="middle" class="leaf">信息系统：硬件・软件・数据・用户・通信网络</text>
+    <text x="510" y="262" text-anchor="middle" class="leaf">硬件五大部件；CPU = 运算器 + 控制器</text>
+    <text x="510" y="299" text-anchor="middle" class="leaf">存储器重点：RAM / ROM；内存 / 外存</text>
+
+    <rect x="1030" y="135" width="520" height="200" rx="24" fill="#eef1ff" stroke="#5977b8" stroke-width="3"/>
+    <text x="1290" y="183" text-anchor="middle" class="branch">② 传感、识别与控制</text>
+    <text x="1290" y="225" text-anchor="middle" class="leaf">传感器采集 → 智能终端处理 → 执行器作用</text>
+    <text x="1290" y="262" text-anchor="middle" class="leaf">RFID 射频识别；NFC 近场通信</text>
+    <text x="1290" y="299" text-anchor="middle" class="leaf">阈值判断・连续采样・反馈控制・故障验证</text>
+
+    <rect x="70" y="420" width="520" height="210" rx="24" fill="#ecf9f4" stroke="#20966f" stroke-width="3"/>
+    <text x="330" y="468" text-anchor="middle" class="branch">③ 网络</text>
+    <text x="330" y="510" text-anchor="middle" class="leaf">组成：计算机系统 / 数据通信系统 / 软件与协议</text>
+    <text x="330" y="547" text-anchor="middle" class="leaf">分类：计算机网络 / 广播电视网络 / 移动通信网络</text>
+    <text x="330" y="584" text-anchor="middle" class="leaf">计算机网络：LAN / MAN / WAN</text>
+
+    <rect x="1210" y="420" width="520" height="210" rx="24" fill="#fff2eb" stroke="#e06b32" stroke-width="3"/>
+    <text x="1470" y="468" text-anchor="middle" class="branch">④ 网络应用与搭建</text>
+    <text x="1470" y="510" text-anchor="middle" class="leaf">B/S：浏览器访问；C/S：专用客户端</text>
+    <text x="1470" y="547" text-anchor="middle" class="leaf">URL = 协议 + 主机 + 端口 + 路径 + 参数</text>
+    <text x="1470" y="584" text-anchor="middle" class="leaf">需求 → 设计 → 实现 → 测试 → 维护</text>
+
+    <rect x="250" y="715" width="520" height="250" rx="24" fill="#f5effa" stroke="#8b65b1" stroke-width="3"/>
+    <text x="510" y="763" text-anchor="middle" class="branch">⑤ pandas 与可视化</text>
+    <text x="510" y="805" text-anchor="middle" class="leaf">Series：index + values</text>
+    <text x="510" y="842" text-anchor="middle" class="leaf">DataFrame：index + columns + values</text>
+    <text x="510" y="879" text-anchor="middle" class="leaf">筛选 → 分组 → 排序 → 再筛选 → 画图</text>
+    <text x="510" y="916" text-anchor="middle" class="small">每一步都要看“输出变成了什么”</text>
+
+    <rect x="1030" y="715" width="520" height="250" rx="24" fill="#fff8e8" stroke="#c38a2d" stroke-width="3"/>
+    <text x="1290" y="763" text-anchor="middle" class="branch">⑥ 故障与优化</text>
+    <text x="1290" y="805" text-anchor="middle" class="leaf">故障：沿数据流找中断点，用正常功能做排除</text>
+    <text x="1290" y="842" text-anchor="middle" class="leaf">带宽：压缩、降频、边缘处理、异常时上传</text>
+    <text x="1290" y="879" text-anchor="middle" class="leaf">存储：归档、清理、备份</text>
+    <text x="1290" y="916" text-anchor="middle" class="leaf">可靠性：暂存、重试、冗余</text>
+    <text x="1290" y="951" text-anchor="middle" class="small">答题顺序：现象 → 排除 → 定位 → 改进</text>
+  </g>
+</svg>

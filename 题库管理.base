@@ -24,10 +24,10 @@ properties:
     displayName: 知识点
   完成次数:
     displayName: 完成次数
+  补课:
+    displayName: 补课
   正确率:
     displayName: 正确率
-  状态:
-    displayName: 状态
   错题原因:
     displayName: 错题原因
   图片核验:
@@ -38,20 +38,11 @@ views:
   - type: table
     name: 全部题目
     groupBy:
-      property: 来源
+      property: 试卷
       direction: ASC
     order:
       - file.name
-      - id
-      - 题型
-      - 年级
-      - formula.难度标签
-      - 状态
       - 知识点
-      - 来源
-      - 完成次数
-      - 正确率
-      - 图片核验
     sort:
       - property: 完成次数
         direction: DESC
@@ -63,7 +54,7 @@ views:
     name: 未练习
     filters:
       and:
-        - 状态 == "未练习"
+        - 完成次数 == 0
     order:
       - file.name
       - id
@@ -73,10 +64,10 @@ views:
       - 知识点
       - 来源
   - type: table
-    name: 已完成
+    name: 已练习
     filters:
       and:
-        - 状态 == "已完成"
+        - 完成次数 > 0
     order:
       - file.name
       - id
@@ -90,7 +81,7 @@ views:
     name: 需复习
     filters:
       and:
-        - 状态 == "需复习"
+        - 正确率 < 1
     order:
       - file.name
       - id
@@ -104,7 +95,7 @@ views:
     name: 错题
     filters:
       and:
-        - 状态 == "错题"
+        - 错题原因 != null
     order:
       - file.name
       - id
@@ -137,8 +128,8 @@ views:
       - 题型
       - 年级
       - formula.难度标签
-      - 状态
       - 完成次数
+      - 补课
       - 正确率
   - type: table
     name: 选择题
@@ -150,9 +141,9 @@ views:
       - id
       - formula.难度标签
       - 年级
-      - 状态
       - 来源
       - 完成次数
+      - 补课
       - 正确率
   - type: table
     name: 填空题
@@ -164,7 +155,7 @@ views:
       - id
       - formula.难度标签
       - 年级
-      - 状态
       - 来源
       - 完成次数
+      - 补课
       - 正确率

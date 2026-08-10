@@ -1,0 +1,26 @@
+[
+  {
+    "label": "q12 linked list figures",
+    "source": "_pdf_pages/202512-xianyu/202512xianyu_p03.png",
+    "box": [465, 230, 1125, 530],
+    "output": "attachments/202512县域联盟高三月考_12_图1.png"
+  },
+  {
+    "label": "q13 flowchart",
+    "source": "_pdf_pages/202512-xianyu/202512xianyu_p03.png",
+    "box": [790, 1175, 1220, 1770],
+    "output": "attachments/202512县域联盟高三月考_13_图1.png"
+  },
+  {
+    "label": "q14 weather table and chart",
+    "source": "_pdf_pages/202512-xianyu/202512xianyu_p04.png",
+    "box": [215, 395, 1130, 745],
+    "output": "attachments/202512县域联盟高三月考_14_图1.png"
+  },
+  {
+    "label": "q15 course data and output",
+    "source": "_pdf_pages/202512-xianyu/202512xianyu_p05.png",
+    "box": [280, 465, 1125, 700],
+    "output": "attachments/202512县域联盟高三月考_15_图1.png"
+  }
+]

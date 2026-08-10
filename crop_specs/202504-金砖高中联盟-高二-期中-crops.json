@@ -1,0 +1,14 @@
+[
+  {
+    "label": "202504 金砖 q12 图a",
+    "source": "_pdf_pages/202504金砖高二/202504金砖高二_p03.png",
+    "box": [650, 265, 1065, 365],
+    "output": "attachments/202504金砖高二_12_图a.png"
+  },
+  {
+    "label": "202504 金砖 q12 图b",
+    "source": "_pdf_pages/202504金砖高二/202504金砖高二_p03.png",
+    "box": [650, 370, 900, 460],
+    "output": "attachments/202504金砖高二_12_图b.png"
+  }
+]

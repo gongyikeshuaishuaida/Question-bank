@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="940" viewBox="0 0 1800 940">
+  <defs>
+    <style>
+      text { font-family: "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #17324d; }
+      .title { font-size: 44px; font-weight: 700; }
+      .branch { font-size: 29px; font-weight: 700; }
+      .item { font-size: 23px; font-weight: 700; }
+      .note { font-size: 20px; fill: #4f687d; }
+      .small { font-size: 18px; fill: #5d7183; }
+      .inverse { fill: #ffffff; }
+    </style>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#16324f" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="1800" height="940" fill="#f7fafc"/>
+  <rect x="45" y="32" width="1710" height="88" rx="22" fill="#173f66"/>
+  <text x="900" y="90" text-anchor="middle" class="title inverse">网络的三大组成部分</text>
+
+  <g fill="none" stroke-width="5" stroke-linecap="round">
+    <path d="M900 165V215H300V270" stroke="#2878c7"/>
+    <path d="M900 215V270" stroke="#20966f"/>
+    <path d="M900 215H1500V270" stroke="#8b65b1"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="730" y="140" width="340" height="88" rx="22" fill="#173f66"/>
+    <text x="900" y="196" text-anchor="middle" class="branch inverse">计算机网络</text>
+
+    <rect x="60" y="270" width="480" height="570" rx="25" fill="#eaf4ff" stroke="#2878c7" stroke-width="3"/>
+    <text x="300" y="330" text-anchor="middle" class="branch">① 计算机系统</text>
+    <rect x="105" y="375" width="390" height="140" rx="20" fill="#ffffff" stroke="#6aa6db" stroke-width="2"/>
+    <text x="300" y="420" text-anchor="middle" class="item">服务器</text>
+    <text x="300" y="462" text-anchor="middle" class="note">处理请求、管理数据</text>
+    <text x="300" y="495" text-anchor="middle" class="note">提供共享服务</text>
+    <rect x="105" y="555" width="390" height="140" rx="20" fill="#ffffff" stroke="#6aa6db" stroke-width="2"/>
+    <text x="300" y="600" text-anchor="middle" class="item">终端</text>
+    <text x="300" y="642" text-anchor="middle" class="note">采集数据、接收用户输入</text>
+    <text x="300" y="675" text-anchor="middle" class="note">发出请求、显示结果</text>
+    <text x="300" y="770" text-anchor="middle" class="small">服务器与终端是角色，不完全取决于设备价格或外形</text>
+
+    <rect x="660" y="270" width="480" height="570" rx="25" fill="#ecf9f4" stroke="#20966f" stroke-width="3"/>
+    <text x="900" y="330" text-anchor="middle" class="branch">② 数据通信系统</text>
+    <rect x="705" y="375" width="390" height="140" rx="20" fill="#ffffff" stroke="#62b89c" stroke-width="2"/>
+    <text x="900" y="420" text-anchor="middle" class="item">传输介质</text>
+    <text x="900" y="462" text-anchor="middle" class="note">双绞线、同轴电缆、光纤</text>
+    <text x="900" y="495" text-anchor="middle" class="note">无线电磁波传播空间</text>
+    <rect x="705" y="555" width="390" height="205" rx="20" fill="#ffffff" stroke="#62b89c" stroke-width="2"/>
+    <text x="900" y="600" text-anchor="middle" class="item">网络互联设备</text>
+    <text x="900" y="640" text-anchor="middle" class="note">交换机：在局域网内转发数据</text>
+    <text x="900" y="675" text-anchor="middle" class="note">路由器：连接不同网络、选择传输路径</text>
+    <text x="900" y="710" text-anchor="middle" class="note">其他设备：网卡、调制解调器等</text>
+    <text x="900" y="805" text-anchor="middle" class="small">功能：建立通信链路，使不同设备或网络能够互联</text>
+
+    <rect x="1260" y="270" width="480" height="570" rx="25" fill="#f5effa" stroke="#8b65b1" stroke-width="3"/>
+    <text x="1500" y="330" text-anchor="middle" class="branch">③ 网络软件与协议</text>
+    <rect x="1305" y="375" width="390" height="140" rx="20" fill="#ffffff" stroke="#a888c4" stroke-width="2"/>
+    <text x="1500" y="420" text-anchor="middle" class="item">网络软件</text>
+    <text x="1500" y="462" text-anchor="middle" class="note">管理网络资源</text>
+    <text x="1500" y="495" text-anchor="middle" class="note">实现通信与网络应用服务</text>
+    <rect x="1305" y="555" width="390" height="205" rx="20" fill="#ffffff" stroke="#a888c4" stroke-width="2"/>
+    <text x="1500" y="600" text-anchor="middle" class="item">网络协议：共同遵守的规则</text>
+    <text x="1500" y="640" text-anchor="middle" class="note">IP：把信息从一个地方传送到另一个地方</text>
+    <text x="1500" y="675" text-anchor="middle" class="note">TCP：管理被传送内容的完整性</text>
+    <text x="1500" y="710" text-anchor="middle" class="note">AP：响应网络应用程序发出的请求</text>
+    <text x="1500" y="745" text-anchor="middle" class="note">并将信息转换成人能够识别的内容</text>
+    <text x="1500" y="805" text-anchor="middle" class="small">本教材中 AP = 应用程序协议（Application Protocol）</text>
+  </g>
+
+  <rect x="250" y="870" width="1300" height="46" rx="14" fill="#edf4fa"/>
+  <text x="900" y="901" text-anchor="middle" class="note">网络组成 = 计算机系统 + 数据通信系统 + 网络软件与网络协议</text>
+</svg>

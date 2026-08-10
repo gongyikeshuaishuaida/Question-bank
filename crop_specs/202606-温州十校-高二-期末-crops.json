@@ -1,0 +1,20 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_tmp/wenzhou10-it-hires/wz10_it_p02.png",
+    "box": [540, 475, 975, 875],
+    "output": "attachments/202606温州十校_07_图1.png"
+  },
+  {
+    "label": "q14 data table and bar chart",
+    "source": "_tmp/wenzhou10-it-hires/wz10_it_p05.png",
+    "box": [175, 315, 880, 600],
+    "output": "attachments/202606温州十校_14_图1.png"
+  },
+  {
+    "label": "q15 schedule table and timeline",
+    "source": "_tmp/wenzhou10-it-hires/wz10_it_p06.png",
+    "box": [175, 360, 875, 765],
+    "output": "attachments/202606温州十校_15_图1.png"
+  }
+]

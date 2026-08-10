@@ -1,0 +1,20 @@
+[
+  {
+    "label": "q09 flowchart",
+    "source": "_pdf_pages/202603_zhennan_g2_p02.png",
+    "box": [980, 1450, 1405, 1995],
+    "output": "attachments/202603浙南名校高二_09_图1.png"
+  },
+  {
+    "label": "q13 data and chart",
+    "source": "_pdf_pages/202603_zhennan_g2_p05.png",
+    "box": [420, 165, 965, 970],
+    "output": "attachments/202603浙南名校高二_13_图1.png"
+  },
+  {
+    "label": "q15 reservation example",
+    "source": "_pdf_pages/202603_zhennan_g2_p07.png",
+    "box": [300, 455, 1165, 850],
+    "output": "attachments/202603浙南名校高二_15_图1.png"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "source": "_pdf_pages/downloads11_12_qiangji/page_p02.png",
+    "box": [350, 775, 900, 1190],
+    "output": "attachments/202502强基联盟_07_图1.png",
+    "label": "202502 强基联盟第7题完整流程图"
+  },
+  {
+    "source": "_pdf_pages/downloads11_12_qiangji/page_p04.png",
+    "box": [520, 0, 1060, 390],
+    "output": "attachments/202502强基联盟_12_图1.png",
+    "label": "202502 强基联盟第12题链表删除结果图"
+  },
+  {
+    "source": "_mineru_output/downloads11_12_qiangji_paper/images/4dd5ba49c2059b287784521f15690aba438f7d4c74ad0552c754788a83170809.jpg",
+    "box": [0, 0, 1323, 218],
+    "output": "attachments/202502强基联盟_13_图1.jpg",
+    "label": "202502 强基联盟第13题投票过程示例表"
+  },
+  {
+    "source": "_mineru_output/downloads11_12_qiangji_paper/images/6d93b1bd9d6430fb6e9110a447f7af05268661a314792b709899c1955e9401c3.jpg",
+    "box": [0, 0, 545, 412],
+    "output": "attachments/202502强基联盟_14_图1.jpg",
+    "label": "202502 强基联盟第14题商品数据表"
+  },
+  {
+    "source": "_mineru_output/downloads11_12_qiangji_paper/images/7001607907f456c82eed473d16c6cf601970b1951e1fa77340df9324ad44a59d.jpg",
+    "box": [0, 0, 526, 409],
+    "output": "attachments/202502强基联盟_14_图2.jpg",
+    "label": "202502 强基联盟第14题库存柱形图"
+  },
+  {
+    "source": "_mineru_output/downloads11_12_qiangji_paper/images/67a3a2b11f2e9adce8758f2594a96588bddb19fad173ec3eaceda22104608647.jpg",
+    "box": [0, 0, 418, 295],
+    "output": "attachments/202502强基联盟_15_图1.jpg",
+    "label": "202502 强基联盟第15题示例怪物数据表"
+  },
+  {
+    "source": "_mineru_output/downloads11_12_qiangji_paper/images/dfaf83f07ff8d2236035b72ff66ea37b9a9dec0b0c2506db516db0c7b87485e3.jpg",
+    "box": [0, 0, 487, 301],
+    "output": "attachments/202502强基联盟_15_图2.jpg",
+    "label": "202502 强基联盟第15题到达时间表"
+  },
+  {
+    "source": "_mineru_output/downloads11_12_qiangji_paper/images/1d06c741097f7186c9a985edc24a15468e696b74ba2fe7666f08abe11c0c6b12.jpg",
+    "box": [0, 0, 1201, 195],
+    "output": "attachments/202502强基联盟_15_图3.jpg",
+    "label": "202502 强基联盟第15题存在时间区间图"
+  },
+  {
+    "source": "_mineru_output/downloads11_12_qiangji_paper/images/7e87fc01ecb648fdcdd43dce60a72533a5fc7697c88d78feb8a6e0ff28eddef4.jpg",
+    "box": [0, 0, 696, 345],
+    "output": "attachments/202502强基联盟_15_图4.jpg",
+    "label": "202502 强基联盟第15题六只怪物数据表"
+  }
+]

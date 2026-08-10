@@ -1,0 +1,20 @@
+[
+  {
+    "source": "_tmp/render_202504_nsf/nsf_p03.png",
+    "box": [70, 190, 350, 575],
+    "output": "attachments/202504宁三锋_10_图1.png",
+    "label": "202504宁三锋第10题流程图"
+  },
+  {
+    "source": "_tmp/render_202504_nsf/nsf_p05.png",
+    "box": [95, 175, 930, 465],
+    "output": "attachments/202504宁三锋_14_图1.png",
+    "label": "202504宁三锋第14题图a数据表和图b线形图"
+  },
+  {
+    "source": "_tmp/render_202504_nsf/nsf_p05.png",
+    "box": [140, 1110, 910, 1380],
+    "output": "attachments/202504宁三锋_15_图1.png",
+    "label": "202504宁三锋第15题图a订单表"
+  }
+]

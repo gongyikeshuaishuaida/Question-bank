@@ -1,0 +1,32 @@
+[
+  {
+    "label": "第05题8×8汉字编码图",
+    "source": "_tmp/shaoxing48_media/q05_grid.png",
+    "box": null,
+    "output": "attachments/202506绍兴高一_05_编码图.png"
+  },
+  {
+    "label": "第07题温度监测流程图",
+    "source": "_tmp/shaoxing48_media/q07_flow.png",
+    "box": null,
+    "output": "attachments/202506绍兴高一_07_流程图.png"
+  },
+  {
+    "label": "第13题采样示意图",
+    "source": "_tmp/shaoxing48_media/q13_figa.png",
+    "box": null,
+    "output": "attachments/202506绍兴高一_13_采样图.png"
+  },
+  {
+    "label": "第13题像素信息图",
+    "source": "_tmp/shaoxing48_media/q13_figb.png",
+    "box": null,
+    "output": "attachments/202506绍兴高一_13_像素信息.png"
+  },
+  {
+    "label": "第15题运行结果图",
+    "source": "_tmp/shaoxing48_media/q15_output.png",
+    "box": null,
+    "output": "attachments/202506绍兴高一_15_运行结果.png"
+  }
+]

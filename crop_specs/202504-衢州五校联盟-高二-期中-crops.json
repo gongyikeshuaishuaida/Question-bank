@@ -1,0 +1,32 @@
+[
+  {
+    "source": "_tmp/render_202504_qzwx/qzwx_p03.png",
+    "box": [95, 840, 1015, 935],
+    "output": "attachments/202504衢州五校_12_图a图b.png",
+    "label": "202504衢州五校第12题链表合并前后"
+  },
+  {
+    "source": "_tmp/render_202504_qzwx/qzwx_p04.png",
+    "box": [420, 600, 1015, 1080],
+    "output": "attachments/202504衢州五校_13_图a图b图c.png",
+    "label": "202504衢州五校第13题输入数据、路段表和运行结果"
+  },
+  {
+    "source": "_tmp/render_202504_qzwx/qzwx_p05.png",
+    "box": [105, 630, 970, 915],
+    "output": "attachments/202504衢州五校_14_图a图b.png",
+    "label": "202504衢州五校第14题图a数据表和图b线形图"
+  },
+  {
+    "source": "_tmp/render_202504_qzwx/qzwx_p06.png",
+    "box": [760, 40, 1010, 260],
+    "output": "attachments/202504衢州五校_14_图c.png",
+    "label": "202504衢州五校第14题图c低效区域结果"
+  },
+  {
+    "source": "_tmp/render_202504_qzwx/qzwx_p06.png",
+    "box": [780, 370, 1044, 645],
+    "output": "attachments/202504衢州五校_15_图.png",
+    "label": "202504衢州五校第15题预定结果和两个merge代码框"
+  }
+]

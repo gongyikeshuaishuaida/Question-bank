@@ -1,0 +1,20 @@
+[
+  {
+    "label": "q06 heart-rate image and bitmap properties",
+    "source": "_pdf_pages/202606丽水高一/202606丽水高一_p02.png",
+    "box": [275, 320, 770, 485],
+    "output": "attachments/202606丽水高一_06_图1.png"
+  },
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202606丽水高一/202606丽水高一_p02.png",
+    "box": [390, 655, 660, 1115],
+    "output": "attachments/202606丽水高一_07_图1.png"
+  },
+  {
+    "label": "q17 score-to-star table and sample score file",
+    "source": "_pdf_pages/202606丽水高一/202606丽水高一_p05.png",
+    "box": [130, 920, 870, 1235],
+    "output": "attachments/202606丽水高一_17_图1.png"
+  }
+]

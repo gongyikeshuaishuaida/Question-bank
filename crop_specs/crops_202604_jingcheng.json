@@ -1,0 +1,38 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202604_jingcheng/202604_jingcheng_p02.png",
+    "box": [850, 345, 1200, 755],
+    "output": "attachments/202605精诚联盟高三_07_图1.png"
+  },
+  {
+    "label": "q08 tree",
+    "source": "_pdf_pages/202604_jingcheng/202604_jingcheng_p02.png",
+    "box": [790, 750, 1185, 990],
+    "output": "attachments/202605精诚联盟高三_08_图1.png"
+  },
+  {
+    "label": "q12 linked list diagrams",
+    "source": "_pdf_pages/202604_jingcheng/202604_jingcheng_p03.png",
+    "box": [135, 715, 1160, 875],
+    "output": "attachments/202605精诚联盟高三_12_图1.png"
+  },
+  {
+    "label": "q14 data",
+    "source": "_pdf_pages/202604_jingcheng/202604_jingcheng_p04.png",
+    "box": [255, 1470, 555, 1805],
+    "output": "attachments/202605精诚联盟高三_14_图1.png"
+  },
+  {
+    "label": "q14 chart",
+    "source": "_pdf_pages/202604_jingcheng/202604_jingcheng_p04.png",
+    "box": [638, 1455, 1015, 1805],
+    "output": "attachments/202605精诚联盟高三_14_图2.png"
+  },
+  {
+    "label": "q15 table",
+    "source": "_pdf_pages/202604_jingcheng/202604_jingcheng_p05.png",
+    "box": [875, 820, 1220, 1285],
+    "output": "attachments/202605精诚联盟高三_15_图1.png"
+  }
+]

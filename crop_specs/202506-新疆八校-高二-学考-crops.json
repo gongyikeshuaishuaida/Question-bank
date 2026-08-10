@@ -1,0 +1,14 @@
+[
+  {
+    "label": "第08题借阅数据表",
+    "source": "_mineru_output/batch52/images/1b18fcc9b446d4c2bc137ec64703b7209b106a704e885ed3673a2216b8222136.jpg",
+    "box": null,
+    "output": "attachments/202506新疆八校高二_08_借阅数据表.png"
+  },
+  {
+    "label": "第09题补贴流程图",
+    "source": "_mineru_output/batch52/images/bae1638cc5930a1163d98b815ab7356dab1f2ad2bfc534b10199d006fb54c966.jpg",
+    "box": null,
+    "output": "attachments/202506新疆八校高二_09_流程图.png"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "label": "第09题流程图",
+    "source": "_pdf_pages/202504_jx8/jx8_p02.png",
+    "output": "attachments/202504嘉兴八校高二_09_图1.png",
+    "box": [590, 382, 930, 805]
+  },
+  {
+    "label": "第15题加密字符纸与密码纸示例",
+    "source": "_pdf_pages/202504_jx8/jx8_p05.png",
+    "output": "attachments/202504嘉兴八校高二_15_图a.png",
+    "box": [335, 585, 715, 768]
+  },
+  {
+    "label": "第15题示例运行输出与解密表",
+    "source": "_pdf_pages/202504_jx8/jx8_p05.png",
+    "output": "attachments/202504嘉兴八校高二_15_图b.png",
+    "box": [75, 875, 930, 1235]
+  }
+]

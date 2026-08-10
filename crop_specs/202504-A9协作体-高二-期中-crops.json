@@ -1,0 +1,14 @@
+[
+  {
+    "label": "第08题流程图",
+    "source": "_pdf_pages/202504_a9_it_hi/a9hi_p02.png",
+    "output": "attachments/202504A9高二_08_图1.png",
+    "box": [1090, 300, 1555, 940]
+  },
+  {
+    "label": "第15题加密示例变换图",
+    "source": "_pdf_pages/202504_a9_it/a9_p06.png",
+    "box": [160, 515, 1020, 590],
+    "output": "attachments/202504A9高二_15_示例变换.png"
+  }
+]

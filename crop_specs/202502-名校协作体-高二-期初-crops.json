@@ -1,0 +1,44 @@
+[
+  {
+    "source": "_pdf_pages/downloads11_13_mingxiao_g2/page_p02.png",
+    "box": [720, 630, 1130, 1130],
+    "output": "attachments/202502名校协作体高二_08_图1.jpg",
+    "label": "202502 名校协作体高二第8题流程图"
+  },
+  {
+    "source": "_pdf_pages/downloads11_13_mingxiao_g2/page_p04.png",
+    "box": [630, 300, 1100, 620],
+    "output": "attachments/202502名校协作体高二_13_图1.png",
+    "label": "202502 名校协作体高二第13题运行结果图"
+  },
+  {
+    "source": "_mineru_output/downloads11_13_mingxiao_g2_paper/images/6b78246d303f8a8be6c28995abca4a3364ef67727cf58b1c6e6f5f8400204302.jpg",
+    "box": [0, 0, 681, 326],
+    "output": "attachments/202502名校协作体高二_14_图1.jpg",
+    "label": "202502 名校协作体高二第14题考生成绩表"
+  },
+  {
+    "source": "_mineru_output/downloads11_13_mingxiao_g2_paper/images/5bd9b509859a8071c8e51d90cb2750f88b7397b9598c048e21015c9312e8e0da.jpg",
+    "box": [0, 0, 454, 337],
+    "output": "attachments/202502名校协作体高二_14_图2.jpg",
+    "label": "202502 名校协作体高二第14题班级柱形图"
+  },
+  {
+    "source": "_mineru_output/downloads11_13_mingxiao_g2_paper/images/2ae831b0263fdbd41ecb7f6aa511bdaec8ef85c9e3c09e442d0b7fe8be803b0f.jpg",
+    "box": [0, 0, 1232, 96],
+    "output": "attachments/202502名校协作体高二_14_图3.jpg",
+    "label": "202502 名校协作体高二第14题等级折算表"
+  },
+  {
+    "source": "_mineru_output/downloads11_13_mingxiao_g2_paper/images/7ab4fb38ea317d3e0c67783b5b50e5405bec33bfa82a9f30e2d7c5c3aba58321.jpg",
+    "box": [0, 0, 545, 342],
+    "output": "attachments/202502名校协作体高二_15_图1.jpg",
+    "label": "202502 名校协作体高二第15题预约输入截图"
+  },
+  {
+    "source": "_pdf_pages/downloads11_13_mingxiao_g2/page_p05.png",
+    "box": [690, 1145, 1065, 1435],
+    "output": "attachments/202502名校协作体高二_15_图2.png",
+    "label": "202502 名校协作体高二第15题时间段输出图"
+  }
+]

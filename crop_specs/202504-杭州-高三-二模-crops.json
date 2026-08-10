@@ -1,0 +1,14 @@
+[
+  {
+    "source": "_pdf_pages/downloads11_21_hangzhou_g3/page_p02.png",
+    "box": [820, 70, 1110, 460],
+    "output": "attachments/202504杭州高三_07_图1.png",
+    "label": "202504 杭州高三二模第7题交错级数流程图"
+  },
+  {
+    "source": "_mineru_output/images/a696269a49f7bfe30c536420ee3784220a0ba9b601976a2e927254d280416c39.jpg",
+    "box": [0, 0, 351, 254],
+    "output": "attachments/202504杭州高三_14_图b.jpg",
+    "label": "202504 杭州高三二模第14题异常监测点柱形图"
+  }
+]

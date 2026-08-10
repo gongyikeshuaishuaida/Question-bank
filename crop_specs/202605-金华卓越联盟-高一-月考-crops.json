@@ -1,0 +1,14 @@
+[
+  {
+    "label": "q08 flowchart",
+    "source": "_tmp/jinhuazhuoyue-pages/jhzy_p02.png",
+    "box": [225, 205, 625, 550],
+    "output": "attachments/202605金华卓越联盟_08_图1.png"
+  },
+  {
+    "label": "q14 sample run",
+    "source": "_tmp/jinhuazhuoyue-pages/jhzy_p04.png",
+    "box": [530, 75, 995, 295],
+    "output": "attachments/202605金华卓越联盟_14_图1.png"
+  }
+]

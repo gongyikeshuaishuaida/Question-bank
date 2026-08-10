@@ -1,0 +1,14 @@
+[
+  {
+    "source": "_tmp/render_202506_hz/hz_p02.png",
+    "box": [500, 55, 930, 335],
+    "output": "attachments/202506湖州高二_06_流程图.png",
+    "label": "第6题流程图"
+  },
+  {
+    "source": "_tmp/render_202506_hz/hz_p04.png",
+    "box": [145, 875, 1035, 1095],
+    "output": "attachments/202506湖州高二_14_数据表和柱形图.png",
+    "label": "第14题图a数据表和图b柱形图"
+  }
+]

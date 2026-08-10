@@ -4,25 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "bc34067bb2a61ee7",
+        "id": "dfaf0a951092ecc7",
         "type": "tabs",
         "children": [
           {
-            "id": "6a9c17d5fa3e92d1",
+            "id": "f308cc4fa4f775ae",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "题库管理.base",
+                "viewName": "全部题目"
+              },
+              "icon": "lucide-table",
+              "title": "题库管理"
+            }
+          },
+          {
+            "id": "3b394b799a8012c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "图片核验.md",
+                "file": "docs/Downloads-11试卷录入比对-20260731.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "图片核验"
+              "title": "Downloads-11试卷录入比对-20260731"
             }
           },
           {
-            "id": "2dd3cb59f5aeae0c",
+            "id": "6edc4a306fc5b808",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,63 +49,101 @@
             }
           },
           {
-            "id": "b261645fd5467a98",
+            "id": "9bf2217c663dc905",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "10栈/202604-绍兴-高三-期中-08.md",
-                "mode": "source",
-                "source": false
+                "file": "试卷/202607-暑假-高三-e网通3.pdf"
               },
-              "icon": "lucide-file",
-              "title": "202604-绍兴-高三-期中-08"
+              "icon": "lucide-file-text",
+              "title": "202607-暑假-高三-e网通3"
             }
           },
           {
-            "id": "a5ac7aa8cb95485a",
+            "id": "8d0c61ba69216c2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03python基础/202604-台州-高三-二模-12.md",
+                "file": "20出题/202607暑假高三-e网通课堂限时训练.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202604-台州-高三-二模-12"
+              "title": "202607暑假高三-e网通课堂限时训练"
             }
           },
           {
-            "id": "f318e21d7b263780",
+            "id": "61c7127b1e939649",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "13查找与排序/202604-绍兴-高三-期中-12.md",
+                "file": "11链表/202607-暑假-高三-e网通1-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202604-绍兴-高三-期中-12"
+              "title": "202607-暑假-高三-e网通1-15"
             }
           },
           {
-            "id": "c258b068c9f4e6fd",
+            "id": "187fc4081af1ac8f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "试卷/202607-暑假-高三-e网通1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "202607-暑假-高三-e网通1"
+            }
+          },
+          {
+            "id": "b7a984a90ec07e08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "13查找与排序/202506-宁波九校-高二-期末-13.md",
+                "file": "04数据处理/202607-暑假-高三-e网通2-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "202506-宁波九校-高二-期末-13"
+              "title": "202607-暑假-高三-e网通2-14"
+            }
+          },
+          {
+            "id": "61f276f8ba0fa960",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06信息系统/202607-暑假-高三-e网通2-13.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "202607-暑假-高三-e网通2-13"
+            }
+          },
+          {
+            "id": "6301bc3e1aaab49e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06信息系统/202607-暑假-高三-e网通4-14.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "202607-暑假-高三-e网通4-14"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -112,7 +163,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -124,10 +177,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "宁波",
+                "query": "第 1 类考生",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -145,11 +198,12 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 294.5
   },
   "right": {
     "id": "f037095b8e008c41",
@@ -254,53 +308,53 @@
       "bases:新建数据库": false
     }
   },
-  "active": "2dd3cb59f5aeae0c",
+  "active": "8d0c61ba69216c2d",
   "lastOpenFiles": [
-    "图片核验.md",
-    "11链表/202604-宁波-高三-二模-15.md",
-    "03python基础/202604-宁波-高三-二模-14.md",
-    "04数据处理/202604-宁波-高三-二模-13.md",
-    "08数组/202604-宁波-高三-二模-12.md",
-    "10栈/202604-宁波-高三-二模-11.md",
-    "03python基础/202604-宁波-高三-二模-10.md",
-    "09队列/202604-宁波-高三-二模-09.md",
-    "12树/202604-宁波-高三-二模-08.md",
-    "02算法/202604-宁波-高三-二模-07.md",
-    "01数据与编码/202604-宁波-高三-二模-06.md",
-    "05人工智能/202604-宁波-高三-二模-05.md",
-    "06信息系统/202604-宁波-高三-二模-04.md",
-    "07信息安全/202604-宁波-高三-二模-03.md",
-    "06信息系统/202604-宁波-高三-二模-02.md",
-    "01数据与编码/202604-宁波-高三-二模-01.md",
-    "scripts/import_202604_ningbo.py",
-    "attachments/202604宁波高三_13_图1.png",
-    "attachments/202604宁波高三_12_图1.png",
-    "attachments/202604宁波高三_07_图1.png",
-    "crop_specs/crops_202604_ningbo_g3_er.json",
-    "_pdf_pages/202604_ningbo_g3_er/contact_ans.png",
-    "_pdf_pages/202604_ningbo_g3_er/contact_9_15.png",
-    "_pdf_pages/202604_ningbo_g3_er/contact_1_8.png",
-    "_pdf_pages/202604_ningbo_g3_er/202604_ningbo_g3_er_p15.png",
-    "_pdf_pages/202604_ningbo_g3_er/202604_ningbo_g3_er_p14.png",
-    "_pdf_pages/202604_ningbo_g3_er/202604_ningbo_g3_er_p13.png",
-    "_pdf_pages/202604_ningbo_g3_er/202604_ningbo_g3_er_p12.png",
-    "_pdf_pages/202604_ningbo_g3_er",
-    "试卷/202604-宁波-高三-二模-答案.pdf",
-    "试卷/202604-宁波-高三-二模.pdf",
+    "20出题/~$2607暑假高三-e网通课堂限时训练-学生版-更新.docx",
+    "20出题/~WRL2160.tmp",
+    "20出题/~WRD2144.tmp",
+    "20出题/~WRL2492.tmp",
+    "20出题/~WRD2469.tmp",
+    "试卷/202607-暑假-高三-e网通3.pdf",
     "题目核验.md",
-    "scripts/fix_202604_shaoxing_material_yaml.py",
-    "03python基础/202604-台州-高三-二模-12.md",
-    "14迭代与递归/202604-台州-高三-二模-10.md",
-    "12树/202604-台州-高三-二模-09.md",
-    "02算法/202604-台州-高三-二模-07.md",
-    "01数据与编码/202604-台州-高三-二模-06.md",
-    "07信息安全/202604-台州-高三-二模-05.md",
-    "06信息系统/202604-台州-高三-二模-03.md",
-    "07信息安全/202604-台州-高三-二模-02.md",
-    "01数据与编码/202604-台州-高三-二模-01.md",
-    "scripts/import_202604_shaoxing.py",
-    "scripts/__pycache__/validate_question_bank.cpython-314.pyc",
-    "crop_specs/crops_202604_shaoxing_g3_mid.json",
-    "_pdf_pages/202604_shaoxing_g3_mid"
+    "试卷/202607-暑假-高三-e网通1.pdf",
+    "11链表/202607-暑假-高三-e网通1-15.md",
+    "20出题/202607暑假高三-e网通课堂限时训练.md",
+    "20出题/2026.8暑假.pdf",
+    "20出题/~WRL2927.tmp",
+    "20出题/~WRD2911.tmp",
+    "20出题/~WRL0005.tmp",
+    "06信息系统/202607-暑假-高三-e网通4-14.md",
+    "04数据处理/202607-暑假-高三-e网通2-14.md",
+    "06信息系统/202607-暑假-高三-e网通2-13.md",
+    "图片核验.md",
+    "11链表/202607-暑假-高三-e网通6-15.md",
+    "04数据处理/202607-暑假-高三-e网通6-14.md",
+    "03程序设计/202607-暑假-高三-e网通6-13.md",
+    "03程序设计/202607-暑假-高三-e网通6-12.md",
+    "08数组/202607-暑假-高三-e网通6-11.md",
+    "10排序/202607-暑假-高三-e网通6-10.md",
+    "03程序设计/202607-暑假-高三-e网通6-09.md",
+    "09查找/202607-暑假-高三-e网通6-08.md",
+    "03程序设计/202607-暑假-高三-e网通6-07.md",
+    "14迭代与递归/202607-暑假-高三-e网通6-06.md",
+    "06信息系统/202607-暑假-高三-e网通6-05.md",
+    "03程序设计/202607-暑假-高三-e网通6-04.md",
+    "06信息系统/202607-暑假-高三-e网通6-03.md",
+    "05人工智能/202607-暑假-高三-e网通6-02.md",
+    "07信息安全/202607-暑假-高三-e网通6-01.md",
+    "attachments/202607暑假高三e网通6_15_图1.png",
+    "attachments/202607暑假高三e网通6_14_图4.png",
+    "attachments/202607暑假高三e网通6_14_图3.png",
+    "attachments/202607暑假高三e网通6_14_图2.png",
+    "attachments/202607暑假高三e网通6_14_图1.png",
+    "attachments/202607暑假高三e网通6_08_图1.png",
+    "_mineru_output/e网通6-answer/images/2b6348a0ed06d98c16d5629c7823c160ee213b98da21ada7bc8f931d38967024.jpg",
+    "_mineru_output/e网通6-answer/images/79135f793757ac03ca350977440e7309f55ac52bcc349615a7bc55ce39e11e89.jpg",
+    "_mineru_output/e网通6-answer/images/9fe6f5a1c2cda90a81c963d3101f2ee5b66b835b6f049d84edf442616bb7e628.jpg",
+    "_mineru_output/e网通6-paper/images/d17a54c9664940b2118ba9c82d20be830d453f1ff0b195530f294ae058fc73c6.jpg",
+    "_mineru_output/e网通6-answer/202607-暑假-高三-e网通6-答案.md",
+    "_mineru_output/e网通6-paper/202607-暑假-高三-e网通6.md",
+    "_mineru_output/202607-暑假-高三-e网通6.md"
   ]
 }

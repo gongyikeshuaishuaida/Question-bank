@@ -1,0 +1,163 @@
+[
+  {
+    "label": "e网通1 第07题流程图",
+    "source": "_mineru_output/e网通1-paper/images/c782abc9d33cbfad02f079a7a83445f91c8418da9d622f21c27c5c45ee0a5c91.jpg",
+    "output": "attachments/202607暑假高三e网通1_07_图1.png"
+  },
+  {
+    "label": "e网通1 第14题系统结构图",
+    "source": "_mineru_output/e网通1-paper/images/2aa28996c5039038a616267a0050f927207aadce73f6b068b4d4e0fd802ddee3.jpg",
+    "output": "attachments/202607暑假高三e网通1_14_图1.png"
+  },
+  {
+    "label": "e网通1 第15题完整表格",
+    "source": "_pdf_pages/202607暑假高三e网通1/p_p05.png",
+    "box": [330, 1508, 980, 1772],
+    "output": "attachments/202607暑假高三e网通1_15_图1.png"
+  },
+  {
+    "label": "e网通2 第07题完整流程图",
+    "source": "_pdf_pages/202607暑假高三e网通2/p_p02.png",
+    "box": [475, 210, 850, 685],
+    "output": "attachments/202607暑假高三e网通2_07_图1.png"
+  },
+  {
+    "label": "e网通2 第13题完整流程图",
+    "source": "_pdf_pages/202607暑假高三e网通2/p_p04.png",
+    "box": [495, 455, 805, 815],
+    "output": "attachments/202607暑假高三e网通2_13_图1.png"
+  },
+  {
+    "label": "e网通2 第14题完整柱形图",
+    "source": "_pdf_pages/202607暑假高三e网通2/p_p04.png",
+    "box": [200, 1095, 1120, 1555],
+    "output": "attachments/202607暑假高三e网通2_14_图1.png"
+  },
+  {
+    "label": "e网通2 第15题完整表格",
+    "source": "_pdf_pages/202607暑假高三e网通2/p_p06.png",
+    "box": [125, 130, 1185, 285],
+    "output": "attachments/202607暑假高三e网通2_15_图1.png"
+  },
+  {
+    "label": "e网通3 第07题完整流程图",
+    "source": "_pdf_pages/202607暑假高三e网通3/p_p02.png",
+    "box": [445, 830, 885, 1370],
+    "output": "attachments/202607暑假高三e网通3_07_图1.png"
+  },
+  {
+    "label": "e网通3 第13题程序运行结果",
+    "source": "_pdf_pages/202607暑假高三e网通3/p_p04.png",
+    "box": [500, 245, 840, 410],
+    "output": "attachments/202607暑假高三e网通3_13_图1.png"
+  },
+  {
+    "label": "e网通3 第14题数据表",
+    "source": "_mineru_output/e网通3-paper/images/45ec8a9311b47a89e7ee2d927d4c93ae9ac75a36de76b5b4ee9e09293299a4b9.jpg",
+    "output": "attachments/202607暑假高三e网通3_14_图1.png"
+  },
+  {
+    "label": "e网通3 第14题柱形图",
+    "source": "_mineru_output/e网通3-paper/images/5b7acb5a6a8e67fce9177fc0ac76443f92cae7b4ab20d1aef7aeac94693a10db.jpg",
+    "output": "attachments/202607暑假高三e网通3_14_图2.png"
+  },
+  {
+    "label": "e网通3 第14题合并结果",
+    "source": "_pdf_pages/202607暑假高三e网通3/p_p05.png",
+    "box": [325, 690, 985, 970],
+    "output": "attachments/202607暑假高三e网通3_14_图3.png"
+  },
+  {
+    "label": "e网通3 第15题完整表格",
+    "source": "_pdf_pages/202607暑假高三e网通3/p_p06.png",
+    "box": [170, 305, 1140, 525],
+    "output": "attachments/202607暑假高三e网通3_15_图1.png"
+  },
+  {
+    "label": "e网通4 第07题完整流程图",
+    "source": "_mineru_output/e网通4-paper/images/88e5bb53971e3a58834f8caf2534e0e6777e4b1a8c308795e84e844fda204bd1.jpg",
+    "output": "attachments/202607暑假高三e网通4_07_图1.png"
+  },
+  {
+    "label": "e网通4 第12题原链表",
+    "source": "_mineru_output/e网通4-paper/images/c20b2fc5f5cdcb516c889eb1e19348739c8f40b1ca953b67128c03263d13795e.jpg",
+    "output": "attachments/202607暑假高三e网通4_12_图1.png"
+  },
+  {
+    "label": "e网通4 第12题去重后链表",
+    "source": "_mineru_output/e网通4-paper/images/1e8d4b24c9613116d6afa70b5497b862e24c12d246f0c033d1e21107fcb086e7.jpg",
+    "output": "attachments/202607暑假高三e网通4_12_图2.png"
+  },
+  {
+    "label": "e网通4 第14题系统结构图",
+    "source": "_mineru_output/e网通4-paper/images/03c6243c45a388488005c54d0bb97cac51e160f97e4f3abf801300fba7269927.jpg",
+    "output": "attachments/202607暑假高三e网通4_14_图1.png"
+  },
+  {
+    "label": "e网通4 第14题噪声数据表",
+    "source": "_mineru_output/e网通4-paper/images/9720fdb9ff6d7342184949283eea17be053b4f6c5bead15e35b43f75d9047f4b.jpg",
+    "output": "attachments/202607暑假高三e网通4_14_图2.png"
+  },
+  {
+    "label": "e网通4 第15题输入输出示例",
+    "source": "_pdf_pages/202607暑假高三e网通4/p_p07.png",
+    "box": [290, 650, 910, 890],
+    "output": "attachments/202607暑假高三e网通4_15_图1.png"
+  },
+  {
+    "label": "e网通5 第01题购票界面",
+    "source": "_mineru_output/e网通5-paper/images/8b1653ab1dc0ace05bfcbc903a77bfb8fb8e087d44f22c6bd7e21be7edc2fd2a.jpg",
+    "output": "attachments/202607暑假高三e网通5_01_图1.png"
+  },
+  {
+    "label": "e网通5 第07题流程图",
+    "source": "_pdf_pages/202607暑假高三e网通5/p_p02.png",
+    "box": [425, 1062, 780, 1500],
+    "output": "attachments/202607暑假高三e网通5_07_图1.png"
+  },
+  {
+    "label": "e网通5 第13题跑步数据表",
+    "source": "_mineru_output/e网通5-paper/images/1cf4a515c80d9358a4c50c56c6275b130f20e44ad0a9a49cfc393b3f1689f526.jpg",
+    "output": "attachments/202607暑假高三e网通5_13_图1.png"
+  },
+  {
+    "label": "e网通5 第13题统计图",
+    "source": "_mineru_output/e网通5-paper/images/8a176a78dfd3e90439a95b0659848a814fba0f64aea97775594a11ea2b0f81ba.jpg",
+    "output": "attachments/202607暑假高三e网通5_13_图2.png"
+  },
+  {
+    "label": "e网通5 第15题雷达示意图",
+    "source": "_mineru_output/e网通5-paper/images/102c0d644d0b6bf6faf52440d91b4e3cdc13a778e462af021273006f57d14b12.jpg",
+    "output": "attachments/202607暑假高三e网通5_15_图1.png"
+  },
+  {
+    "label": "e网通6 第08题流程图",
+    "source": "_mineru_output/e网通6-paper/images/a0098c6c0d4d7f42ded41d9022607bf79d2fddf4ad42cbc698b89941c99bebf3.jpg",
+    "output": "attachments/202607暑假高三e网通6_08_图1.png"
+  },
+  {
+    "label": "e网通6 第14题原始数据",
+    "source": "_mineru_output/e网通6-paper/images/30c0d2abc756a0e8f5dfd01c67a556af175c1b410603c66fc99f7c97a591face.jpg",
+    "output": "attachments/202607暑假高三e网通6_14_图1.png"
+  },
+  {
+    "label": "e网通6 第14题考生成绩表",
+    "source": "_mineru_output/e网通6-paper/images/7ca2f09198bb3e686bdaa1f95bb1032b25d57a62f293a0249f8037fbb5e366cd.jpg",
+    "output": "attachments/202607暑假高三e网通6_14_图2.png"
+  },
+  {
+    "label": "e网通6 第14题折算表",
+    "source": "_mineru_output/e网通6-paper/images/d5d1dab1e015aaf5e2c2eabb00235dd78b672dfaf42a30457954f92580e58a34.jpg",
+    "output": "attachments/202607暑假高三e网通6_14_图3.png"
+  },
+  {
+    "label": "e网通6 第14题统计图",
+    "source": "_mineru_output/e网通6-paper/images/3d56baa26321ec4d8960485849c8c67a28b5e07dda3cc7b607eec2670fa8ecc9.jpg",
+    "output": "attachments/202607暑假高三e网通6_14_图4.png"
+  },
+  {
+    "label": "e网通6 第15题接单示例",
+    "source": "_mineru_output/e网通6-paper/images/d17a54c9664940b2118ba9c82d20be830d453f1ff0b195530f294ae058fc73c6.jpg",
+    "output": "attachments/202607暑假高三e网通6_15_图1.png"
+  }
+]

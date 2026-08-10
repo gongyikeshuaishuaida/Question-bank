@@ -1,0 +1,44 @@
+[
+  {
+    "source": "_tmp/render_202505_qj/qj_p01.png",
+    "box": [3940, 250, 4290, 380],
+    "output": "attachments/202505强基联盟_03_ASCII表.jpg",
+    "label": "第3题ASCII码表"
+  },
+  {
+    "source": "_mineru_output/batch36/images/fa1b6ac631d6b14f49b6426d2545a3f5bd2e78603658e1fdef94a7de3ae4a18f.jpg",
+    "box": null,
+    "output": "attachments/202505强基联盟_07_流程图.jpg",
+    "label": "第7题流程图"
+  },
+  {
+    "source": "_mineru_output/batch36/images/000d5882aabb240dcc653f8cbc30c79087b887c8c4adfec21fa77bea19670eca.jpg",
+    "box": null,
+    "output": "attachments/202505强基联盟_08_栈操作图.jpg",
+    "label": "第8题栈操作图"
+  },
+  {
+    "source": "_mineru_output/batch36/images/3e9f410cc991847475f18da0f54f37d431572e1c3fc11e13faf1066f32bf21a5.jpg",
+    "box": null,
+    "output": "attachments/202505强基联盟_13_格口表.jpg",
+    "label": "第13题快递柜格口表"
+  },
+  {
+    "source": "_mineru_output/batch36/images/9e9e6f38783587b15291fb1c8ef1619da24977e3189d5376ff2a3cc810855350.jpg",
+    "box": null,
+    "output": "attachments/202505强基联盟_14_数据表.jpg",
+    "label": "第14题图a监测数据表"
+  },
+  {
+    "source": "_mineru_output/batch36/images/4223b14d0718178c8be8735a25d81b9272bf022fb430b96f198fd0bd9cb28175.jpg",
+    "box": null,
+    "output": "attachments/202505强基联盟_14_折线图.jpg",
+    "label": "第14题图b温度折线图"
+  },
+  {
+    "source": "_mineru_output/batch36/images/1851a60c80c4ccd101acce8c15c27cc3a3abdb61f0a73bb86e854127c927eb71.jpg",
+    "box": null,
+    "output": "attachments/202505强基联盟_15_接单表.jpg",
+    "label": "第15题接单方案表"
+  }
+]

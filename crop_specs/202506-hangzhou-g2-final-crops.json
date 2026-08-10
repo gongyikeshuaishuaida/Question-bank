@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Q07 flowchart",
+    "source": "_pdf_pages/202506_hz_g2_final_p02.png",
+    "box": [1535, 700, 2215, 1490],
+    "output": "attachments/202506杭州高二_07_图1.png"
+  },
+  {
+    "label": "Q12 linked list",
+    "source": "_pdf_pages/202506_hz_g2_final_p03.png",
+    "box": [1075, 570, 2175, 1245],
+    "output": "attachments/202506杭州高二_12_图1.png"
+  },
+  {
+    "label": "Q13 matrix",
+    "source": "_pdf_pages/202506_hz_g2_final_p03.png",
+    "box": [1060, 2070, 2125, 2890],
+    "output": "attachments/202506杭州高二_13_图1.png"
+  },
+  {
+    "label": "Q14 table",
+    "source": "_pdf_pages/202506_hz_g2_final_p04.png",
+    "box": [390, 1450, 1085, 2065],
+    "output": "attachments/202506杭州高二_14_图1.png"
+  },
+  {
+    "label": "Q14 chart",
+    "source": "_pdf_pages/202506_hz_g2_final_p04.png",
+    "box": [1235, 1440, 2205, 2095],
+    "output": "attachments/202506杭州高二_14_图2.png"
+  },
+  {
+    "label": "Q15 preferences",
+    "source": "_pdf_pages/202506_hz_g2_final_p05.png",
+    "box": [390, 1355, 1205, 1825],
+    "output": "attachments/202506杭州高二_15_图1.png"
+  },
+  {
+    "label": "Q15 scores",
+    "source": "_pdf_pages/202506_hz_g2_final_p05.png",
+    "box": [1325, 1360, 2105, 1815],
+    "output": "attachments/202506杭州高二_15_图2.png"
+  }
+]

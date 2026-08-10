@@ -1,0 +1,38 @@
+[
+  {
+    "source": "_mineru_output/batch35/images/8710007e322f9a4ef2efdee98fa195d1064e4c160310b0d72af9ce2052b40d2f.jpg",
+    "box": null,
+    "output": "attachments/202505温州_08_A.jpg",
+    "label": "第8题流程图选项A"
+  },
+  {
+    "source": "_mineru_output/batch35/images/58d5d2f6fd8fe030b92e9eb2b72db249f31ec5ddab330666633937e83a72b2d2.jpg",
+    "box": null,
+    "output": "attachments/202505温州_08_B.jpg",
+    "label": "第8题流程图选项B"
+  },
+  {
+    "source": "_mineru_output/batch35/images/61b493172c0ea8415b0d3ffa536971e4e038db6ff6bcda55dae5156a977008d6.jpg",
+    "box": null,
+    "output": "attachments/202505温州_08_C.jpg",
+    "label": "第8题流程图选项C"
+  },
+  {
+    "source": "_mineru_output/batch35/images/6762b5bb4d2cb2ab92dfdde0962cf72dccb47ec9d30955f7c29f24278e0c7069.jpg",
+    "box": null,
+    "output": "attachments/202505温州_08_D.jpg",
+    "label": "第8题流程图选项D"
+  },
+  {
+    "source": "_mineru_output/batch35/images/deb796d09a5a3f8869832ef7fb93d4092a79b8e969b142662fcdb2d7e2030a90.jpg",
+    "box": null,
+    "output": "attachments/202505温州_14_图a.jpg",
+    "label": "第14题图a传感器数据表"
+  },
+  {
+    "source": "_mineru_output/batch35/images/83fa1eb25de6ce3fc7a3dc7fdf11e6f46c446b4dd4c048eef5a5876a843fb163.jpg",
+    "box": null,
+    "output": "attachments/202505温州_14_图b.jpg",
+    "label": "第14题图b每小时湿度折线图"
+  }
+]

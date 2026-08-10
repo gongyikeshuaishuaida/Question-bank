@@ -1,0 +1,26 @@
+[
+  {
+    "label": "202601嘉兴高二期末-11-题图1",
+    "source": "_pdf_pages/202601_jiaxing_g2_p03.png",
+    "output": "attachments/202601嘉兴高二期末_11_题图1.png",
+    "box": [445, 850, 835, 1028]
+  },
+  {
+    "label": "202601嘉兴高二期末-12-题图1",
+    "source": "_pdf_pages/202601_jiaxing_g2_p04.png",
+    "output": "attachments/202601嘉兴高二期末_12_题图1.png",
+    "box": [115, 385, 1085, 775]
+  },
+  {
+    "label": "202601嘉兴高二期末-13-题图1",
+    "source": "_pdf_pages/202601_jiaxing_g2_p05.png",
+    "output": "attachments/202601嘉兴高二期末_13_题图1.png",
+    "box": [150, 690, 475, 1148]
+  },
+  {
+    "label": "202601嘉兴高二期末-13-题图2",
+    "source": "_pdf_pages/202601_jiaxing_g2_p05.png",
+    "output": "attachments/202601嘉兴高二期末_13_题图2.png",
+    "box": [500, 675, 1015, 1148]
+  }
+]

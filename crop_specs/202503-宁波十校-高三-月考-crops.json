@@ -1,0 +1,20 @@
+[
+  {
+    "source": "_pdf_pages/downloads_2_20260731/002-ningbo10/202503ningbo10_p02.png",
+    "box": [610, 90, 870, 455],
+    "output": "attachments/202503宁波十校_07_图1.png",
+    "label": "202503 宁波十校第07题流程图"
+  },
+  {
+    "source": "_pdf_pages/downloads_2_20260731/002-ningbo10/202503ningbo10_p05.png",
+    "box": [105, 75, 870, 285],
+    "output": "attachments/202503宁波十校_14_图1.png",
+    "label": "202503 宁波十校第14题系统结构图"
+  },
+  {
+    "source": "_pdf_pages/downloads_2_20260731/002-ningbo10/202503ningbo10_p06.png",
+    "box": [535, 285, 865, 412],
+    "output": "attachments/202503宁波十校_15_图1.png",
+    "label": "202503 宁波十校第15题蛇形分班图"
+  }
+]

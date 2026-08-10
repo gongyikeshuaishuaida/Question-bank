@@ -1,0 +1,93 @@
+[
+  {
+    "label": "Q7",
+    "source": "_pdf_pages/hq_p02.png",
+    "box": [
+      420,
+      370,
+      1375,
+      1440
+    ],
+    "output": "attachments\\202511浙东北_07_图1.png",
+    "_status": "CLEAN",
+    "_iterations": 1
+  },
+  {
+    "label": "Q13",
+    "source": "_pdf_pages/hq_p04.png",
+    "box": [
+      1120,
+      1670,
+      1765,
+      2240
+    ],
+    "output": "attachments\\202511浙东北_13_图1.png",
+    "_status": "CLEAN",
+    "_iterations": 1
+  },
+  {
+    "label": "Q14a",
+    "source": "_pdf_pages/hq_p05.png",
+    "box": [
+      1010,
+      335,
+      1690,
+      830
+    ],
+    "output": "attachments\\202511浙东北_14_图1.png",
+    "_status": "CLEAN",
+    "_iterations": 1
+  },
+  {
+    "label": "Q14b",
+    "source": "_pdf_pages/hq_p05.png",
+    "box": [
+      980,
+      825,
+      1695,
+      1028
+    ],
+    "output": "attachments\\202511浙东北_14_图2.png",
+    "_status": "CLEAN",
+    "_iterations": 1
+  },
+  {
+    "label": "Q14c",
+    "source": "_pdf_pages/hq_p06.png",
+    "box": [
+      585,
+      265,
+      1205,
+      795
+    ],
+    "output": "attachments\\202511浙东北_14_图3.png",
+    "_status": "CLEAN",
+    "_iterations": 1
+  },
+  {
+    "label": "Q15a",
+    "source": "_pdf_pages/hq_p07.png",
+    "box": [
+      145,
+      565,
+      550,
+      935
+    ],
+    "output": "attachments\\202511浙东北_15_图1.png",
+    "_status": "CLEAN",
+    "_iterations": 1
+  },
+  {
+    "label": "Q15b",
+    "source": "_pdf_pages/hq_p07.png",
+    "box": [
+      560,
+      555,
+      1625,
+      935
+    ],
+    "output": "attachments\\202511浙东北_15_图2.png",
+    "_status": "CLEAN",
+    "_iterations": 1
+  }
+]

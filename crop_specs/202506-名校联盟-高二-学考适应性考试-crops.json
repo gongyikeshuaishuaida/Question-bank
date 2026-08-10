@@ -1,0 +1,6 @@
+[
+  {"source": "_tmp/mingxiao46_media/q08_table.png", "box": null, "output": "attachments/202506名校联盟高二_08_数据表.png", "label": "第8题数据表"},
+  {"source": "_tmp/render_mingxiao46/p02.png", "box": [575, 1360, 1240, 1785], "output": "attachments/202506名校联盟高二_09_流程图.png", "label": "第9题流程图"},
+  {"source": "_tmp/mingxiao46_media/q12_score.png", "box": null, "output": "attachments/202506名校联盟高二_12_成绩记录.png", "label": "第12题成绩记录"},
+  {"source": "_tmp/mingxiao46_media/q12_result.png", "box": null, "output": "attachments/202506名校联盟高二_12_成绩分布.png", "label": "第12题成绩分布"}
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "label": "第08题流程图",
+    "source": "_mineru_output/batch55/images/468f286c2f9e66901ce95cc29340960a921fa4976b8e6a9422c3cd4567019ae3.jpg",
+    "box": null,
+    "output": "attachments/202607浙江技术学考_08_流程图.png"
+  },
+  {
+    "label": "第10题数据表",
+    "source": "_mineru_output/batch55/images/5c8162499a6473f4e87e2c704d43f460c6622ef816aa146cfecd4329e26c1562.jpg",
+    "box": null,
+    "output": "attachments/202607浙江技术学考_10_数据表.png"
+  },
+  {
+    "label": "第10题成功率图",
+    "source": "_mineru_output/batch55/images/cc573e311f16d964eace511a4a199d70c2299e805b8d7e0804e95770fc82be27.jpg",
+    "box": null,
+    "output": "attachments/202607浙江技术学考_10_成功率图.png"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "source": "_pdf_pages/downloads_2_20260731/006-xinliliang-hi/202604xinliliang_p02.png",
+    "box": [850, 850, 1500, 1645],
+    "output": "attachments/202604新力量_07_图1.png",
+    "label": "202604 新力量第07题流程图"
+  },
+  {
+    "source": "_pdf_pages/downloads_2_20260731/006-xinliliang-hi/202604xinliliang_p04.png",
+    "box": [85, 540, 1475, 1050],
+    "output": "attachments/202604新力量_11_图1.png",
+    "label": "202604 新力量第11题原始数据与目标柱形图"
+  },
+  {
+    "source": "_pdf_pages/downloads_2_20260731/006-xinliliang-hi/202604xinliliang_p05.png",
+    "box": [850, 285, 1460, 800],
+    "output": "attachments/202604新力量_12_图1.png",
+    "label": "202604 新力量第12题棋盘示意图"
+  }
+]

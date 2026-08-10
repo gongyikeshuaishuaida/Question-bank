@@ -1,0 +1,7 @@
+[
+  {"source": "_tmp/render_qiangji47/p01.png", "box": [3880, 1210, 4760, 1600], "output": "attachments/202506强基联盟高二_08_数据表.png", "label": "第8题数据表"},
+  {"source": "_tmp/render_qiangji47/p02.png", "box": [380, 720, 980, 1120], "output": "attachments/202506强基联盟高二_09_流程图.png", "label": "第9题流程图"},
+  {"source": "_tmp/render_qiangji47/p02.png", "box": [2700, 800, 3750, 1080], "output": "attachments/202506强基联盟高二_12_运行结果.png", "label": "第12题运行结果"},
+  {"source": "_tmp/render_qiangji47/p02.png", "box": [3820, 345, 4920, 555], "output": "attachments/202506强基联盟高二_12_手牌选项.png", "label": "第12题手牌选项"},
+  {"source": "_tmp/render_qiangji47/p02.png", "box": [2650, 618, 3760, 718], "output": "attachments/202506强基联盟高二_12_牌面编号.png", "label": "第12题牌面编号表"}
+]

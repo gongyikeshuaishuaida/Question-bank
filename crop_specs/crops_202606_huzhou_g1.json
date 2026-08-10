@@ -1,0 +1,20 @@
+[
+  {
+    "label": "q08 decimal-to-binary flowchart",
+    "source": "_mineru_output/202606湖州高一试卷/images/08b2cf99dcb9b2f90e17833072ef3c6b0df06737c5d0d1400868abae4e01f307.jpg",
+    "box": [0, 0, 506, 793],
+    "output": "attachments/202606湖州高一_08_图1.png"
+  },
+  {
+    "label": "q13 piecewise score model",
+    "source": "_mineru_output/202606湖州高一试卷/images/b24fade1161fb70b9a3fa9273af409658edd1d1a4270af5c8d9e247b817b57ee.jpg",
+    "box": [0, 0, 890, 218],
+    "output": "attachments/202606湖州高一_13_图1.png"
+  },
+  {
+    "label": "q14 lunch consumption data table",
+    "source": "_mineru_output/202606湖州高一试卷/images/54888b8d03797448548df467880571244ba2d993cd9566f6aa3137cb81161589.jpg",
+    "box": [0, 0, 1507, 573],
+    "output": "attachments/202606湖州高一_14_图1.png"
+  }
+]

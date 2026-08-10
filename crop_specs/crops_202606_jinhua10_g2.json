@@ -1,0 +1,44 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202606金华十校高二/202606金华十校高二_p01.png",
+    "box": [900, 990, 1155, 1345],
+    "output": "attachments/202606金华十校高二_07_图1.png"
+  },
+  {
+    "label": "q08 option A tree",
+    "source": "_pdf_pages/202606金华十校高二/202606金华十校高二_p02.png",
+    "box": [125, 20, 365, 335],
+    "output": "attachments/202606金华十校高二_08_图1.png"
+  },
+  {
+    "label": "q08 option B tree",
+    "source": "_pdf_pages/202606金华十校高二/202606金华十校高二_p02.png",
+    "box": [360, 20, 580, 335],
+    "output": "attachments/202606金华十校高二_08_图2.png"
+  },
+  {
+    "label": "q08 option C tree",
+    "source": "_pdf_pages/202606金华十校高二/202606金华十校高二_p02.png",
+    "box": [570, 20, 800, 335],
+    "output": "attachments/202606金华十校高二_08_图3.png"
+  },
+  {
+    "label": "q08 option D tree",
+    "source": "_pdf_pages/202606金华十校高二/202606金华十校高二_p02.png",
+    "box": [785, 20, 1045, 335],
+    "output": "attachments/202606金华十校高二_08_图4.png"
+  },
+  {
+    "label": "q12 linked-list tables",
+    "source": "_pdf_pages/202606金华十校高二/202606金华十校高二_p03.png",
+    "box": [615, 125, 1060, 390],
+    "output": "attachments/202606金华十校高二_12_图1.png"
+  },
+  {
+    "label": "q13 data table and line chart",
+    "source": "_pdf_pages/202606金华十校高二/202606金华十校高二_p03.png",
+    "box": [265, 1290, 930, 1535],
+    "output": "attachments/202606金华十校高二_13_图1.png"
+  }
+]

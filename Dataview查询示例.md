@@ -20,9 +20,9 @@ TABLE
   年级 AS "年级",
   题型 AS "题型",
   难度 AS "难度",
-  状态 AS "状态",
   知识点 AS "知识点",
   完成次数 AS "完成",
+  补课 AS "补课",
   正确率 AS "正确率",
   图片核验 AS "图片核验"
 FROM ""
@@ -39,7 +39,8 @@ TABLE
   id AS "ID",
   年级 AS "年级",
   难度 AS "难度",
-  状态 AS "状态",
+  完成次数 AS "完成",
+  正确率 AS "正确率",
   来源 AS "来源"
 FROM ""
 WHERE id AND 题型 = "选择题"
@@ -51,7 +52,8 @@ TABLE
   id AS "ID",
   年级 AS "年级",
   难度 AS "难度",
-  状态 AS "状态",
+  完成次数 AS "完成",
+  正确率 AS "正确率",
   来源 AS "来源"
 FROM ""
 WHERE id AND 题型 = "填空题"
@@ -68,7 +70,8 @@ TABLE
   年级 AS "年级",
   题型 AS "题型",
   难度 AS "难度",
-  状态 AS "状态"
+  完成次数 AS "完成",
+  正确率 AS "正确率"
 FROM ""
 WHERE id AND contains(知识点, "03python基础")
 SORT id ASC
@@ -83,9 +86,10 @@ TABLE
   id AS "ID",
   题型 AS "题型",
   难度 AS "难度",
-  知识点 AS "知识点"
+  知识点 AS "知识点",
+  完成次数 AS "完成"
 FROM ""
-WHERE id AND 状态 = "未练习"
+WHERE id AND (完成次数 = null OR 完成次数 = 0)
 SORT id ASC
 ```
 
@@ -117,7 +121,7 @@ TABLE
   正确率 AS "正确率",
   错题原因 AS "错题原因"
 FROM ""
-WHERE id AND (状态 = "需复习" OR 状态 = "错题")
+WHERE id AND ((正确率 != null AND 正确率 < 1) OR 错题原因)
 SORT id ASC
 ```
 

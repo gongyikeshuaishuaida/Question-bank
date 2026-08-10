@@ -1,0 +1,20 @@
+[
+  {
+    "source": "_pdf_pages/downloads_2_20260731/003-jinlan-hi/202604jinlan_p02.png",
+    "box": [1305, 910, 1770, 1650],
+    "output": "attachments/202604金兰_08_图1.png",
+    "label": "202604 金兰第08题流程图"
+  },
+  {
+    "source": "_pdf_pages/downloads_2_20260731/003-jinlan/202604jinlan_p04.png",
+    "box": [110, 425, 825, 630],
+    "output": "attachments/202604金兰_14_图1.png",
+    "label": "202604 金兰第14题系统结构图"
+  },
+  {
+    "source": "_pdf_pages/downloads_2_20260731/003-jinlan/202604jinlan_p05.png",
+    "box": [545, 710, 925, 995],
+    "output": "attachments/202604金兰_14_图2.png",
+    "label": "202604 金兰第14题柱形图"
+  }
+]

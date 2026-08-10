@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="820" viewBox="0 0 1800 820">
+  <defs>
+    <style>
+      text { font-family: "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #17324d; }
+      .title { font-size: 44px; font-weight: 700; }
+      .branch { font-size: 30px; font-weight: 700; }
+      .item { font-size: 24px; font-weight: 700; }
+      .note { font-size: 20px; fill: #4f687d; }
+      .inverse { fill: #ffffff; }
+    </style>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#16324f" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="1800" height="820" fill="#f7fafc"/>
+  <rect x="45" y="32" width="1710" height="88" rx="22" fill="#173f66"/>
+  <text x="900" y="90" text-anchor="middle" class="title inverse">三大网络类型</text>
+
+  <g fill="none" stroke="#20966f" stroke-width="5" stroke-linecap="round">
+    <path d="M900 165V220H300V275"/>
+    <path d="M900 220V275"/>
+    <path d="M900 220H1500V275"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="730" y="140" width="340" height="88" rx="22" fill="#173f66"/>
+    <text x="900" y="196" text-anchor="middle" class="branch inverse">网络</text>
+
+    <rect x="55" y="275" width="490" height="455" rx="25" fill="#eaf4ff" stroke="#2878c7" stroke-width="3"/>
+    <text x="300" y="335" text-anchor="middle" class="branch">① 计算机网络</text>
+    <rect x="95" y="390" width="130" height="165" rx="18" fill="#ffffff" stroke="#6aa6db" stroke-width="2"/>
+    <text x="160" y="435" text-anchor="middle" class="item">LAN</text>
+    <text x="160" y="473" text-anchor="middle" class="note">局域网</text>
+    <text x="160" y="515" text-anchor="middle" class="note">家庭・机房</text>
+    <rect x="235" y="390" width="130" height="165" rx="18" fill="#ffffff" stroke="#6aa6db" stroke-width="2"/>
+    <text x="300" y="435" text-anchor="middle" class="item">MAN</text>
+    <text x="300" y="473" text-anchor="middle" class="note">城域网</text>
+    <text x="300" y="515" text-anchor="middle" class="note">城市范围</text>
+    <rect x="375" y="390" width="130" height="165" rx="18" fill="#ffffff" stroke="#6aa6db" stroke-width="2"/>
+    <text x="440" y="435" text-anchor="middle" class="item">WAN</text>
+    <text x="440" y="473" text-anchor="middle" class="note">广域网</text>
+    <text x="440" y="515" text-anchor="middle" class="note">跨地区</text>
+    <text x="300" y="625" text-anchor="middle" class="note">按覆盖范围：LAN → MAN → WAN</text>
+    <text x="300" y="667" text-anchor="middle" class="note">互联网是全球性计算机网络</text>
+
+    <rect x="655" y="275" width="490" height="455" rx="25" fill="#ecf9f4" stroke="#20966f" stroke-width="3"/>
+    <text x="900" y="335" text-anchor="middle" class="branch">② 广播电视网络</text>
+    <rect x="715" y="390" width="370" height="165" rx="20" fill="#ffffff" stroke="#62b89c" stroke-width="2"/>
+    <text x="900" y="437" text-anchor="middle" class="item">传送广播电视节目</text>
+    <text x="900" y="480" text-anchor="middle" class="note">广播、电视内容传输</text>
+    <text x="900" y="520" text-anchor="middle" class="note">可与数据业务融合</text>
+    <text x="900" y="640" text-anchor="middle" class="note">它与“计算机网络”并列</text>
+    <text x="900" y="680" text-anchor="middle" class="note">不是 LAN / MAN / WAN 的一种</text>
+
+    <rect x="1255" y="275" width="490" height="455" rx="25" fill="#fff2eb" stroke="#e06b32" stroke-width="3"/>
+    <text x="1500" y="335" text-anchor="middle" class="branch">③ 移动通信网络</text>
+    <rect x="1315" y="390" width="370" height="165" rx="20" fill="#ffffff" stroke="#e89569" stroke-width="2"/>
+    <text x="1500" y="437" text-anchor="middle" class="item">支持移动终端通信</text>
+    <text x="1500" y="480" text-anchor="middle" class="note">手机、车载终端、IoT 设备</text>
+    <text x="1500" y="520" text-anchor="middle" class="note">典型技术：4G、5G</text>
+    <text x="1500" y="640" text-anchor="middle" class="note">解决移动状态下的语音与数据通信</text>
+    <text x="1500" y="680" text-anchor="middle" class="note">不等同于手机中的 NFC</text>
+  </g>
+
+  <rect x="310" y="762" width="1180" height="42" rx="14" fill="#edf4fa"/>
+  <text x="900" y="791" text-anchor="middle" class="note">三大网络：计算机网络、广播电视网络、移动通信网络</text>
+</svg>

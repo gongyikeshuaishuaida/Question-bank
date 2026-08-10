@@ -1,0 +1,44 @@
+[
+  {
+    "source": "_mineru_output/batch38/images/5d525cae64cebb8c72f031d90ecd0c2b946734ff0696c67def00c131ac5a0cf3.jpg",
+    "box": null,
+    "output": "attachments/202505Z20_07_流程图.jpg",
+    "label": "第7题流程图"
+  },
+  {
+    "source": "_mineru_output/batch38/images/4519b7f28274f587c46ca9149f9de1b55f6b21048d4618580d53b10880eacc35.jpg",
+    "box": null,
+    "output": "attachments/202505Z20_08_完全二叉树.jpg",
+    "label": "第8题完全二叉树"
+  },
+  {
+    "source": "_mineru_output/batch38/images/c7eba754b661509c8550cdd006a652a07b6e7fb96560c94e97371e8073575b61.jpg",
+    "box": null,
+    "output": "attachments/202505Z20_13_考评表.jpg",
+    "label": "第13题学生德育考评表"
+  },
+  {
+    "source": "_mineru_output/batch38/images/f20b1e1743bdce8fb7c76ac64f3348e4179dadf201e1dedc4bf14743c725ae44.jpg",
+    "box": null,
+    "output": "attachments/202505Z20_14_数据表.jpg",
+    "label": "第14题血压监测数据表"
+  },
+  {
+    "source": "_mineru_output/batch38/images/a8f71901b5f3d6c0fe797613e9f5ebdbcba7eff28af29fb9feb0c9b8c48b6406.jpg",
+    "box": null,
+    "output": "attachments/202505Z20_14_柱形图.jpg",
+    "label": "第14题高血压次数柱形图"
+  },
+  {
+    "source": "_mineru_output/batch38/images/45d6b55b70d22a04ec0471a61ba22a0e279e0bf776b960fdba32d691fd24534c.jpg",
+    "box": null,
+    "output": "attachments/202505Z20_15_等级表.jpg",
+    "label": "第15题会员等级表"
+  },
+  {
+    "source": "_mineru_output/batch38/images/1787bbbe7ec2a046a0383e24201fc9d5af3dd4131edb4b648af67c5d35baf0cd.jpg",
+    "box": null,
+    "output": "attachments/202505Z20_15_会员表.jpg",
+    "label": "第15题会员数据表"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "label": "第08题净水器流程图",
+    "source": "_mineru_output/batch50/images/930b5db650e1f2f3edb1a88b1a9151b2ae069a036bb236453a05903660f1485a.jpg",
+    "box": null,
+    "output": "attachments/202506温州高二_08_流程图.png"
+  },
+  {
+    "label": "第09题图书借阅数据表",
+    "source": "_mineru_output/batch50/images/1becdc9b607c301a34217ac344e888f71044c340571ee03e7b1699cabb07909d.jpg",
+    "box": null,
+    "output": "attachments/202506温州高二_09_借阅数据表.png"
+  },
+  {
+    "label": "第11题跑道监测点示意图",
+    "source": "_mineru_output/batch50/images/4543d14ad9799d9486402ef90c9c4cebd2b6b5135c014f2bc01857156056b2e1.jpg",
+    "box": null,
+    "output": "attachments/202506温州高二_11_跑道示意图.png"
+  }
+]

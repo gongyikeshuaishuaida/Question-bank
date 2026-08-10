@@ -1,0 +1,32 @@
+[
+  {
+    "source": "_pdf_pages/downloads_2_20260731/005-taizhou-hi/202604taizhou_p02.png",
+    "box": [925, 70, 1548, 800],
+    "output": "attachments/202604台州十校_09_图1.png",
+    "label": "202604 台州十校第09题流程图"
+  },
+  {
+    "source": "_pdf_pages/downloads_2_20260731/005-taizhou-hi/202604taizhou_p04.png",
+    "box": [45, 780, 1500, 1330],
+    "output": "attachments/202604台州十校_14_图1.png",
+    "label": "202604 台州十校第14题系统结构与网页路由表"
+  },
+  {
+    "source": "_pdf_pages/downloads_2_20260731/005-taizhou-hi/202604taizhou_p05.png",
+    "box": [145, 75, 650, 650],
+    "output": "attachments/202604台州十校_14_图c.png",
+    "label": "202604 台州十校第14题data.csv部分数据（图c）"
+  },
+  {
+    "source": "_pdf_pages/downloads_2_20260731/005-taizhou-hi/202604taizhou_p05.png",
+    "box": [675, 65, 1425, 650],
+    "output": "attachments/202604台州十校_14_图2.png",
+    "label": "202604 台州十校第14题目标柱形图"
+  },
+  {
+    "source": "_pdf_pages/downloads_2_20260731/005-taizhou-hi/202604taizhou_p05.png",
+    "box": [470, 1680, 1090, 2055],
+    "output": "attachments/202604台州十校_15_图1.png",
+    "label": "202604 台州十校第15题座位矩阵"
+  }
+]

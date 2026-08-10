@@ -1,0 +1,26 @@
+[
+  {
+    "source": "_pdf_pages/downloads11_04_cixi/cixi_p02.png",
+    "box": [955, 380, 1295, 690],
+    "output": "attachments/202501慈溪_07_图1.png",
+    "label": "202501 慈溪第7题主流程图"
+  },
+  {
+    "source": "_pdf_pages/downloads11_04_cixi/cixi_p02.png",
+    "box": [150, 730, 1305, 1000],
+    "output": "attachments/202501慈溪_07_图2.png",
+    "label": "202501 慈溪第7题四个流程图选项"
+  },
+  {
+    "source": "_pdf_pages/downloads11_04_cixi/cixi_p05.png",
+    "box": [170, 665, 1190, 1030],
+    "output": "attachments/202501慈溪_14_图1.png",
+    "label": "202501 慈溪第14题图a和图b"
+  },
+  {
+    "source": "_pdf_pages/downloads11_04_cixi/cixi_p06.png",
+    "box": [255, 1390, 1290, 1835],
+    "output": "attachments/202501慈溪_15_图1.png",
+    "label": "202501 慈溪第15题图a和图b"
+  }
+]

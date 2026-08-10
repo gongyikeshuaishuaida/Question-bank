@@ -1,0 +1,26 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202606衢州高二/202606衢州高二_p02.png",
+    "box": [770, 120, 1115, 600],
+    "output": "attachments/202606衢州高二_07_图1.png"
+  },
+  {
+    "label": "q08 binary tree options",
+    "source": "_pdf_pages/202606衢州高二/202606衢州高二_p02.png",
+    "box": [75, 900, 1080, 1175],
+    "output": "attachments/202606衢州高二_08_图1.png"
+  },
+  {
+    "label": "q14 data table and chart",
+    "source": "_pdf_pages/202606衢州高二/202606衢州高二_p04.png",
+    "box": [215, 625, 1090, 865],
+    "output": "attachments/202606衢州高二_14_图1.png"
+  },
+  {
+    "label": "q15 customer table",
+    "source": "_pdf_pages/202606衢州高二/202606衢州高二_p05.png",
+    "box": [250, 1218, 1125, 1525],
+    "output": "attachments/202606衢州高二_15_图1.png"
+  }
+]

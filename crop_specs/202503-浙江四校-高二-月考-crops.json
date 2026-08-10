@@ -1,0 +1,20 @@
+[
+  {
+    "source": "_pdf_pages/downloads11_19_zhejiang_four_g2/page_p02.png",
+    "box": [550, 170, 900, 475],
+    "output": "attachments/202503浙江四校高二_06_图1.png",
+    "label": "202503 浙江四校高二第6题循环流程图"
+  },
+  {
+    "source": "_mineru_output/downloads11_19_zhejiang_four_g2_paper/images/f57f26bc46f7a49684a808d69bccd7baa6a6330f5bcf32b0773196f1644c02b7.jpg",
+    "box": [0, 0, 129, 157],
+    "output": "attachments/202503浙江四校高二_09_图1.jpg",
+    "label": "202503 浙江四校高二第9题二叉树"
+  },
+  {
+    "source": "_mineru_output/downloads11_19_zhejiang_four_g2_paper/images/787ea44ed60b76842030d2203f81586022492ac077760d078b91b9458905bd95.jpg",
+    "box": [0, 0, 454, 382],
+    "output": "attachments/202503浙江四校高二_14_图b.jpg",
+    "label": "202503 浙江四校高二第14题班级优秀人数柱形图"
+  }
+]

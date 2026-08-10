@@ -1,0 +1,50 @@
+[
+  {
+    "source": "_mineru_output/downloads11_08_wenzhou_a_paper/images/95a760609d3b7e1b5f94f4d8a86aaccc20126f021d0b8c1f974a55e3928499c7.jpg",
+    "box": [0, 0, 490, 245],
+    "output": "attachments/202501温州_06_图1.jpg",
+    "label": "202501 温州A卷第6题标签云"
+  },
+  {
+    "source": "_mineru_output/downloads11_08_wenzhou_a_paper/images/b03bb648d561a95675ecc903b254cecbf1715830175508c39fb69d267308eb84.jpg",
+    "box": [0, 0, 634, 582],
+    "output": "attachments/202501温州_07_图1.jpg",
+    "label": "202501 温州A卷第7题主流程图"
+  },
+  {
+    "source": "_mineru_output/downloads11_08_wenzhou_a_paper/images/865ae5d157755649cd29572078a8f989c45c28c5f7d89c607ede02687cbdc11a.jpg",
+    "box": [0, 0, 181, 298],
+    "output": "attachments/202501温州_07_图2.jpg",
+    "label": "202501 温州A卷第7题选项A"
+  },
+  {
+    "source": "_mineru_output/downloads11_08_wenzhou_a_paper/images/3499c7f1539f58684c0d8f1ce750306a9db4883f986f886311f3443191a606fd.jpg",
+    "box": [0, 0, 187, 299],
+    "output": "attachments/202501温州_07_图3.jpg",
+    "label": "202501 温州A卷第7题选项B"
+  },
+  {
+    "source": "_mineru_output/downloads11_08_wenzhou_a_paper/images/1430b3db27fe98518d1612154b3b59321a0c2274bd4688971f3505d0761cb310.jpg",
+    "box": [0, 0, 187, 307],
+    "output": "attachments/202501温州_07_图4.jpg",
+    "label": "202501 温州A卷第7题选项C"
+  },
+  {
+    "source": "_mineru_output/downloads11_08_wenzhou_a_paper/images/00980edf5a7ebd28af35e2fad41c431eeeebe381737bd1903b31747a9a13fdf7.jpg",
+    "box": [0, 0, 185, 298],
+    "output": "attachments/202501温州_07_图5.jpg",
+    "label": "202501 温州A卷第7题选项D"
+  },
+  {
+    "source": "_pdf_pages/downloads11_08_wenzhou_a/page_p04.png",
+    "box": [80, 1330, 1135, 1715],
+    "output": "attachments/202501温州_14_图1.png",
+    "label": "202501 温州A卷第14题图a和图b整行裁切"
+  },
+  {
+    "source": "_mineru_output/downloads11_08_wenzhou_a_paper/images/848d633cc065eb6a097f8d8db206e1c890d2f2ad4547808d78a6872dac23b1ad.jpg",
+    "box": [0, 0, 851, 376],
+    "output": "attachments/202501温州_15_图1.jpg",
+    "label": "202501 温州A卷第15题加密流程图"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "label": "第07题流程图",
+    "source": "_tmp/audit_pages/shengzhongdian/p_p02.png",
+    "box": [480, 215, 1050, 720],
+    "output": "attachments/202512省重点中学高三_07_流程图.png"
+  },
+  {
+    "label": "第12题链表图",
+    "source": "_mineru_output/batch54/images/ad85b473e09e64329165b349ac89e033a9560f1b52ee74d026cbb25798e48409.jpg",
+    "box": null,
+    "output": "attachments/202512省重点中学高三_12_链表图.png"
+  },
+  {
+    "label": "第14题柱形图",
+    "source": "_mineru_output/batch54/images/00a3cbf941caf944429cc8a0cc04aed3b1b8a89c3bc1df40c3830461db34becb.jpg",
+    "box": null,
+    "output": "attachments/202512省重点中学高三_14_柱形图.png"
+  }
+]

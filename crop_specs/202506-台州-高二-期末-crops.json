@@ -1,0 +1,26 @@
+[
+  {
+    "label": "第07题流程图",
+    "source": "_tmp/render_taizhou49/page_p02.png",
+    "box": [760, 420, 1225, 900],
+    "output": "attachments/202506台州高二_07_流程图.png"
+  },
+  {
+    "label": "第12题合并前链表图",
+    "source": "_mineru_output/batch49/images/a89c903157d710ee5c804f52efd6b52e1a75b419ff7d00d2a8239f1c3798f14d.jpg",
+    "box": null,
+    "output": "attachments/202506台州高二_12_原链表.png"
+  },
+  {
+    "label": "第12题合并后链表图",
+    "source": "_mineru_output/batch49/images/da64f025048e2643a01c2512eaff4076c1b65c77ae12c19532feb9373bf84a3a.jpg",
+    "box": null,
+    "output": "attachments/202506台州高二_12_合并链表.png"
+  },
+  {
+    "label": "第14题PM2.5柱形图",
+    "source": "_mineru_output/batch49/images/267fc0c377902c24459c0f431addd778708788387e91ed1f324c42f5cb377982.jpg",
+    "box": null,
+    "output": "attachments/202506台州高二_14_柱形图.png"
+  }
+]

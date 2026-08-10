@@ -1,0 +1,14 @@
+[
+  {
+    "label": "q13 table and chart",
+    "source": "_pdf_pages/202603名校协作体高三月考_p03.png",
+    "box": [170, 1215, 1125, 1480],
+    "output": "attachments/202603名校协作体高三月考_13_图1.png"
+  },
+  {
+    "label": "q14 flowcharts",
+    "source": "_pdf_pages/202603名校协作体高三月考_p04.png",
+    "box": [270, 760, 1190, 1218],
+    "output": "attachments/202603名校协作体高三月考_14_图1.png"
+  }
+]

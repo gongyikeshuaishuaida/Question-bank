@@ -1,0 +1,32 @@
+[
+  {
+    "label": "q08 flowchart",
+    "source": "_tmp/cixi-it-hires/cixi_it_p02.png",
+    "box": [800, 430, 1115, 758],
+    "output": "attachments/202606慈溪_08_图1.png"
+  },
+  {
+    "label": "q11 array table",
+    "source": "_tmp/cixi-it-hires/cixi_it_p02.png",
+    "box": [325, 1415, 965, 1528],
+    "output": "attachments/202606慈溪_11_图1.png"
+  },
+  {
+    "label": "q14 data table",
+    "source": "_tmp/cixi-it-hires/cixi_it_p05.png",
+    "box": [135, 990, 600, 1230],
+    "output": "attachments/202606慈溪_14_图1.png"
+  },
+  {
+    "label": "q14 bar chart",
+    "source": "_tmp/cixi-it-hires/cixi_it_p05.png",
+    "box": [625, 980, 1035, 1230],
+    "output": "attachments/202606慈溪_14_图2.png"
+  },
+  {
+    "label": "q15 courier table",
+    "source": "_tmp/cixi-it-hires/cixi_it_p06.png",
+    "box": [270, 1065, 965, 1220],
+    "output": "attachments/202606慈溪_15_图1.png"
+  }
+]

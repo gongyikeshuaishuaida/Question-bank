@@ -1,0 +1,14 @@
+[
+  {
+    "source": "_tmp/render_202505_tpfx/tpfx_p02.png",
+    "box": [625, 90, 1010, 520],
+    "output": "attachments/202505桐浦富兴高二_07_流程图.png",
+    "label": "第7题流程图"
+  },
+  {
+    "source": "_tmp/render_202505_tpfx/tpfx_p04.png",
+    "box": [490, 485, 855, 730],
+    "output": "attachments/202505桐浦富兴高二_14_柱形图.png",
+    "label": "第14题柱形图"
+  }
+]

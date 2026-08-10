@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1220" viewBox="0 0 1900 1220">
+  <defs>
+    <style>
+      text { font-family: "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #17324d; }
+      .title { font-size: 42px; font-weight: 700; }
+      .root { font-size: 31px; font-weight: 700; }
+      .branch { font-size: 25px; font-weight: 700; }
+      .leaf { font-size: 20px; }
+      .note { font-size: 18px; fill: #5b6d7c; }
+      .inverse { fill: #ffffff; }
+    </style>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#16324f" flood-opacity=".15"/>
+    </filter>
+  </defs>
+  <rect width="1900" height="1220" fill="#f7fafc"/>
+  <rect x="45" y="35" width="1810" height="82" rx="20" fill="#173f66"/>
+  <text x="950" y="88" text-anchor="middle" class="title inverse">计算机硬件知识图谱：五大部件与存储器</text>
+
+  <g fill="none" stroke-linecap="round" stroke-width="5">
+    <path d="M950 200V285H260V365" stroke="#5977b8"/>
+    <path d="M950 285H595V365" stroke="#5977b8"/>
+    <path d="M950 285V365" stroke="#b36a3c"/>
+    <path d="M950 285H1305V365" stroke="#39967d"/>
+    <path d="M950 285H1640V365" stroke="#39967d"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="780" y="145" width="340" height="100" rx="24" fill="#173f66"/>
+    <text x="950" y="207" text-anchor="middle" class="root inverse">计算机硬件</text>
+
+    <rect x="120" y="365" width="280" height="90" rx="20" fill="#eef1ff" stroke="#5977b8" stroke-width="3"/>
+    <text x="260" y="420" text-anchor="middle" class="branch">运算器</text>
+    <rect x="455" y="365" width="280" height="90" rx="20" fill="#eef1ff" stroke="#5977b8" stroke-width="3"/>
+    <text x="595" y="420" text-anchor="middle" class="branch">控制器</text>
+    <rect x="810" y="365" width="280" height="90" rx="20" fill="#fff1e9" stroke="#b36a3c" stroke-width="4"/>
+    <text x="950" y="420" text-anchor="middle" class="branch">存储器</text>
+    <rect x="1165" y="365" width="280" height="90" rx="20" fill="#eaf8f3" stroke="#39967d" stroke-width="3"/>
+    <text x="1305" y="420" text-anchor="middle" class="branch">输入设备</text>
+    <rect x="1500" y="365" width="280" height="90" rx="20" fill="#eaf8f3" stroke="#39967d" stroke-width="3"/>
+    <text x="1640" y="420" text-anchor="middle" class="branch">输出设备</text>
+  </g>
+
+  <text x="428" y="505" text-anchor="middle" class="note">CPU 主要由运算器和控制器组成</text>
+  <path d="M260 455V480H595V455" fill="none" stroke="#5977b8" stroke-width="3"/>
+
+  <g fill="none" stroke-width="4" stroke-linecap="round">
+    <path d="M950 455V540H540V600" stroke="#b36a3c"/>
+    <path d="M950 540H870V600" stroke="#b36a3c"/>
+    <path d="M540 690V755H430V815" stroke="#d6905f"/>
+    <path d="M540 755H700V815" stroke="#d6905f"/>
+    <path d="M870 690V755H970V815" stroke="#d6905f"/>
+    <path d="M870 755H1240V815" stroke="#d6905f"/>
+    <path d="M1240 905V1080H1150V1100" stroke="#d6905f"/>
+    <path d="M1240 1080H1390V1100" stroke="#d6905f"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="400" y="600" width="280" height="90" rx="20" fill="#fff7f1" stroke="#d6905f" stroke-width="3"/>
+    <text x="540" y="656" text-anchor="middle" class="branch">内存（主存）</text>
+    <rect x="730" y="600" width="280" height="90" rx="20" fill="#fff7f1" stroke="#d6905f" stroke-width="3"/>
+    <text x="870" y="656" text-anchor="middle" class="branch">外存（辅助存储）</text>
+
+    <rect x="300" y="815" width="260" height="90" rx="18" fill="#fff" stroke="#d6905f" stroke-width="3"/>
+    <text x="430" y="870" text-anchor="middle" class="branch">RAM</text>
+    <rect x="570" y="815" width="260" height="90" rx="18" fill="#fff" stroke="#d6905f" stroke-width="3"/>
+    <text x="700" y="870" text-anchor="middle" class="branch">ROM</text>
+    <rect x="840" y="815" width="260" height="90" rx="18" fill="#fff" stroke="#d6905f" stroke-width="3"/>
+    <text x="970" y="870" text-anchor="middle" class="branch">闪存盘</text>
+    <rect x="1110" y="815" width="260" height="90" rx="18" fill="#fff" stroke="#d6905f" stroke-width="3"/>
+    <text x="1240" y="870" text-anchor="middle" class="branch">硬盘</text>
+    <rect x="1030" y="1100" width="240" height="82" rx="18" fill="#fff" stroke="#d6905f" stroke-width="3"/>
+    <text x="1150" y="1152" text-anchor="middle" class="branch">固态硬盘 SSD</text>
+    <rect x="1270" y="1100" width="240" height="82" rx="18" fill="#fff" stroke="#d6905f" stroke-width="3"/>
+    <text x="1390" y="1152" text-anchor="middle" class="branch">机械硬盘 HDD</text>
+  </g>
+  <rect x="245" y="925" width="835" height="152" rx="22" fill="#fff4ce" stroke="#e0b84e" stroke-width="3"/>
+  <text x="662" y="965" text-anchor="middle" class="branch">RAM 与 ROM 的核心区别</text>
+  <text x="662" y="1005" text-anchor="middle" class="leaf">RAM：可反复读写；保存运行中的程序和临时数据；断电后一般丢失</text>
+  <text x="662" y="1043" text-anchor="middle" class="leaf">ROM：通常只读或少量改写；保存较固定内容；断电后一般保留</text>
+
+  <g fill="none" stroke="#39967d" stroke-width="4" stroke-linecap="round">
+    <path d="M1305 455V540H1205V600"/>
+    <path d="M1305 540H1385V600"/>
+    <path d="M1640 455V540H1595V600"/>
+    <path d="M1640 540H1775V600"/>
+  </g>
+  <g filter="url(#s)">
+    <rect x="1120" y="600" width="170" height="110" rx="18" fill="#fff" stroke="#39967d" stroke-width="3"/>
+    <text x="1205" y="644" text-anchor="middle" class="leaf">键盘・鼠标</text>
+    <text x="1205" y="681" text-anchor="middle" class="leaf">扫描仪・摄像头</text>
+    <rect x="1300" y="600" width="170" height="110" rx="18" fill="#fff" stroke="#39967d" stroke-width="3"/>
+    <text x="1385" y="644" text-anchor="middle" class="leaf">传感器・麦克风</text>
+    <text x="1385" y="681" text-anchor="middle" class="leaf">RFID / NFC</text>
+    <rect x="1510" y="600" width="170" height="110" rx="18" fill="#fff" stroke="#39967d" stroke-width="3"/>
+    <text x="1595" y="644" text-anchor="middle" class="leaf">显示器・打印机</text>
+    <text x="1595" y="681" text-anchor="middle" class="leaf">音箱・指示灯</text>
+    <rect x="1690" y="600" width="170" height="110" rx="18" fill="#fff" stroke="#39967d" stroke-width="3"/>
+    <text x="1775" y="644" text-anchor="middle" class="leaf">蜂鸣器・执行器</text>
+    <text x="1775" y="681" text-anchor="middle" class="leaf">电机 / 水泵</text>
+  </g>
+  <text x="1510" y="760" text-anchor="middle" class="note">触摸屏既能显示（输出），也能接收触摸（输入）</text>
+</svg>

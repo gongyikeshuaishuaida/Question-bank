@@ -1,0 +1,10 @@
+[
+  {"source": "_tmp/lishui44_source_extract/word/media/image1.png", "box": null, "output": "attachments/202506丽水高二_07_流程图.png", "label": "第7题流程图"},
+  {"source": "_tmp/lishui44_source_extract/word/media/image2.png", "box": null, "output": "attachments/202506丽水高二_10_二叉树.png", "label": "第10题二叉树"},
+  {"source": "_tmp/lishui44_source_extract/word/media/image3.png", "box": null, "output": "attachments/202506丽水高二_14_数据表.png", "label": "第14题数据表"},
+  {"source": "_tmp/lishui44_source_extract/word/media/image4.jpeg", "box": null, "output": "attachments/202506丽水高二_14_柱形图.jpeg", "label": "第14题柱形图"},
+  {"source": "_tmp/lishui44_source_extract/word/media/image5.png", "box": null, "output": "attachments/202506丽水高二_15_样本表.png", "label": "第15题样本表"},
+  {"source": "_tmp/lishui44_source_extract/word/media/image6.png", "box": null, "output": "attachments/202506丽水高二_15_分类图.png", "label": "第15题分类图"},
+  {"source": "_tmp/lishui44_source_extract/word/media/image7.png", "box": null, "output": "attachments/202506丽水高二_15_散点图.png", "label": "第15题散点图"},
+  {"source": "_tmp/lishui44_source_extract/word/media/image8.png", "box": null, "output": "attachments/202506丽水高二_15_运行结果.png", "label": "第15题运行结果"}
+]

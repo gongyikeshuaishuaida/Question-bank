@@ -1,0 +1,14 @@
+[
+  {
+    "source": "_pdf_pages/downloads11_18_jingcheng_g2/page_p02.png",
+    "box": [420, 790, 705, 1098],
+    "output": "attachments/202503精诚联盟高二_09_图1.png",
+    "label": "202503 精诚联盟高二第9题重量计价流程图"
+  },
+  {
+    "source": "_mineru_output/downloads11_18_jingcheng_g2_paper/images/123d495813cae9e11c389d110976525e5659533725ec123eda5aaa26fe8cad1b.jpg",
+    "box": [0, 0, 375, 276],
+    "output": "attachments/202503精诚联盟高二_14_图b.jpg",
+    "label": "202503 精诚联盟高二第14题11月噪声异常监测点柱形图"
+  }
+]

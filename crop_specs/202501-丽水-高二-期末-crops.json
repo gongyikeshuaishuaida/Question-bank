@@ -1,0 +1,38 @@
+[
+  {
+    "source": "_mineru_output/downloads11_06_lishui_paper/images/941d193ab5a4e7006c30455404e68e5db8ee840436157725e4cf495977e3f327.jpg",
+    "box": [0, 0, 299, 445],
+    "output": "attachments/202501丽水_06_图1.jpg",
+    "label": "202501 丽水第6题完整流程图"
+  },
+  {
+    "source": "_mineru_output/downloads11_06_lishui_paper/images/17cbb55a81e7d42926939f9d487fb06b973a8267dec5277fc6ebd87da70f0acc.jpg",
+    "box": [0, 0, 635, 418],
+    "output": "attachments/202501丽水_14_图1.jpg",
+    "label": "202501 丽水第14题图1农作物数据表"
+  },
+  {
+    "source": "_mineru_output/downloads11_06_lishui_paper/images/e8073f53783f361ed8dc24b8d2cb61868ca260b426d0c0125ffa0b649437f546.jpg",
+    "box": [0, 0, 573, 460],
+    "output": "attachments/202501丽水_14_图2.jpg",
+    "label": "202501 丽水第14题图2收获月份柱形图"
+  },
+  {
+    "source": "_mineru_output/downloads11_06_lishui_paper/images/47e2845ef816fb2a0083d227a33a1b9c2efe356f90fda44865d71ca4f077b45a.jpg",
+    "box": [0, 0, 365, 376],
+    "output": "attachments/202501丽水_15_图1.jpg",
+    "label": "202501 丽水第15题图1棋盘坐标与棋子"
+  },
+  {
+    "source": "_mineru_output/downloads11_06_lishui_paper/images/921f670c8e45301c158bde2228c22f05877e52809ebdf413b6f7101813a95be1.jpg",
+    "box": [0, 0, 259, 237],
+    "output": "attachments/202501丽水_15_图2.jpg",
+    "label": "202501 丽水第15题图2马的移动规则"
+  },
+  {
+    "source": "_mineru_output/downloads11_06_lishui_paper/images/20fa3a3b910142f445019a06358433861a867142e6f258b543084df1dc6dfe69.jpg",
+    "box": [0, 0, 326, 201],
+    "output": "attachments/202501丽水_15_图3.jpg",
+    "label": "202501 丽水第15题图3车的移动规则"
+  }
+]

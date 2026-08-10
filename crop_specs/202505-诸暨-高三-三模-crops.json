@@ -1,0 +1,56 @@
+[
+  {
+    "source": "_mineru_output/batch37/images/35fe970a996d421fe8a2171fe43c59c334cebc5d7a7ebfe1ed59adeeb2cd23e9.jpg",
+    "box": null,
+    "output": "attachments/202505诸暨_04_取件码示例.jpg",
+    "label": "第4题取件码二进制示例"
+  },
+  {
+    "source": "_mineru_output/batch37/images/01390d0eb12c7d4819272df3f7414f679dbc5a0f83528f1759e18b03f32cb96d.jpg",
+    "box": null,
+    "output": "attachments/202505诸暨_07_流程图.jpg",
+    "label": "第7题流程图"
+  },
+  {
+    "source": "_mineru_output/batch37/images/68274e76682dc60d3245c519fcef33bdb4463066cf208d8fd371931e27abdb04.jpg",
+    "box": null,
+    "output": "attachments/202505诸暨_08_后缀表达式.jpg",
+    "label": "第8题后缀表达式"
+  },
+  {
+    "source": "_mineru_output/batch37/images/f44eac70f540ac82c3e365370e559979f7d09298960547617416ae525c317c4b.jpg",
+    "box": null,
+    "output": "attachments/202505诸暨_09_二叉树.jpg",
+    "label": "第9题二叉树"
+  },
+  {
+    "source": "_mineru_output/batch37/images/3f088f6ba504ed0c7efd41cacc7da99c1c712e081a7f5d1b66ccb1489e41d1f9.jpg",
+    "box": [0, 0, 1129, 103],
+    "output": "attachments/202505诸暨_13_打印机状态.jpg",
+    "label": "第13题打印机状态与选项"
+  },
+  {
+    "source": "_mineru_output/batch37/images/ff81197217be76065c133d91a325bc366b3efeeaaed2b609adcce3dce0e77d71.jpg",
+    "box": null,
+    "output": "attachments/202505诸暨_14_数据表.jpg",
+    "label": "第14题图a全年气温数据表"
+  },
+  {
+    "source": "_mineru_output/batch37/images/e1b052e9256a2e7719aa7f1f2971f1d477a5ad5c19db97e98fc6c5d0a6ce5c53.jpg",
+    "box": null,
+    "output": "attachments/202505诸暨_14_柱形图.jpg",
+    "label": "第14题图b适宜天数柱形图"
+  },
+  {
+    "source": "_mineru_output/batch37/images/dd3088fb518589d37cc7f2431b2d10a32e9c65abfa1f28e72efed28fd1e99ee7.jpg",
+    "box": null,
+    "output": "attachments/202505诸暨_15_错误位置图.jpg",
+    "label": "第15题图a错误位置示意"
+  },
+  {
+    "source": "_mineru_output/batch37/images/8faaedbeab653f7f0e39783a4e1a8a10dd40c0824cbb63d8e5c84910af15237c.jpg",
+    "box": null,
+    "output": "attachments/202505诸暨_15_运行示例.jpg",
+    "label": "第15题图b程序运行示例"
+  }
+]

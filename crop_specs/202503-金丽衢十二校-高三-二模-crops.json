@@ -1,0 +1,26 @@
+[
+  {
+    "source": "_mineru_output/downloads11_15_jinli_paper/images/ee28071dabefda4808a07cf9c99ec1f3a6e0d119d882a36465ea4776682b53f7.jpg",
+    "box": [0, 0, 357, 173],
+    "output": "attachments/202503金丽衢十二校高三_14_图1.jpg",
+    "label": "202503 金丽衢十二校高三第14题数据表"
+  },
+  {
+    "source": "_mineru_output/downloads11_15_jinli_paper/images/a899114e0a49ef3a76a9d92c6955fd792bd8ff865257fcbe0f18d0459524ff89.jpg",
+    "box": [0, 0, 365, 179],
+    "output": "attachments/202503金丽衢十二校高三_14_图2.jpg",
+    "label": "202503 金丽衢十二校高三第14题PM2.5折线图"
+  },
+  {
+    "source": "_mineru_output/downloads11_15_jinli_paper/images/faae73e5507ba52200d24773de6971716ef08fe51abb1f0704feb54e2cd71dd3.jpg",
+    "box": [0, 0, 1107, 159],
+    "output": "attachments/202503金丽衢十二校高三_15_图1.jpg",
+    "label": "202503 金丽衢十二校高三第15题需求与费用表"
+  },
+  {
+    "source": "_mineru_output/downloads11_15_jinli_paper/images/9eb8d9cef41482594938bff515fed9705715393b3978058cbf86dc109d9fce89.jpg",
+    "box": [0, 0, 1110, 159],
+    "output": "attachments/202503金丽衢十二校高三_15_图2.jpg",
+    "label": "202503 金丽衢十二校高三第15题生产方案表"
+  }
+]

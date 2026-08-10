@@ -1,0 +1,26 @@
+[
+  {
+    "source": "_mineru_output/batch34/images/e77bda3f256195fc0bb3c537844f1d1eac6ec57fc93924972bc615f88ff82779.jpg",
+    "box": null,
+    "output": "attachments/202504稽阳_07_图.jpg",
+    "label": "第7题流程图"
+  },
+  {
+    "source": "_mineru_output/batch34/images/25292bce645ece4c8d524d2fbbe060a125d45a318e0cd85531799c5508665532.jpg",
+    "box": null,
+    "output": "attachments/202504稽阳_14_图a.jpg",
+    "label": "第14题图a业务数据表"
+  },
+  {
+    "source": "_mineru_output/batch34/images/241cd15a3175988b8674f1f3038daa6fb106fe76d354cfd9da2490c437735c4a.jpg",
+    "box": null,
+    "output": "attachments/202504稽阳_14_图b.jpg",
+    "label": "第14题图b转账金额前十名柱形图"
+  },
+  {
+    "source": "_mineru_output/batch34/images/6d8e24cc9ecf92c1fb4d8d406e3ef58a0856eaf212011c67a8e3ef85796751f8.jpg",
+    "box": null,
+    "output": "attachments/202504稽阳_15_图.jpg",
+    "label": "第15题指数日期与价格表"
+  }
+]

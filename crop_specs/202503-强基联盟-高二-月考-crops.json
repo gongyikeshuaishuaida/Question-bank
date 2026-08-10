@@ -1,0 +1,20 @@
+[
+  {
+    "source": "_mineru_output/downloads11_17_qiangji_g2_paper/images/8bd885f81600c90290948d27b5b55c7aedb94141deefefc0dcb35c8cb43b2d4e.jpg",
+    "box": [0, 0, 784, 293],
+    "output": "attachments/202503强基联盟高二_14_图a-b.jpg",
+    "label": "202503 强基联盟高二第14题图a、图b数据文件与消费数据表"
+  },
+  {
+    "source": "_mineru_output/downloads11_17_qiangji_g2_paper/images/de0fe70e585340b476d14036b3184fabf2038b22f99a928d3d7e21c51f456263.jpg",
+    "box": [0, 0, 329, 268],
+    "output": "attachments/202503强基联盟高二_14_图c.jpg",
+    "label": "202503 强基联盟高二第14题图c班级日平均消费柱形图"
+  },
+  {
+    "source": "_mineru_output/downloads11_17_qiangji_g2_paper/images/8806d9053cb987c10423c67ecb6717ddd724ca44069b1efcc57336d9b82422b8.jpg",
+    "box": [0, 0, 462, 287],
+    "output": "attachments/202503强基联盟高二_15_图b.jpg",
+    "label": "202503 强基联盟高二第15题骑手订单组输出"
+  }
+]

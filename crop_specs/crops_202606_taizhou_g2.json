@@ -1,0 +1,32 @@
+[
+  {
+    "label": "q07 rock paper scissors flowchart",
+    "source": "_pdf_pages/202606台州高二/202606台州高二_p02.png",
+    "box": [180, 360, 625, 915],
+    "output": "attachments/202606台州高二_07_图1.png"
+  },
+  {
+    "label": "q08 binary tree",
+    "source": "_pdf_pages/202606台州高二/202606台州高二_p02.png",
+    "box": [630, 535, 1035, 910],
+    "output": "attachments/202606台州高二_08_图1.png"
+  },
+  {
+    "label": "q13 parking data and bar chart",
+    "source": "_pdf_pages/202606台州高二/202606台州高二_p04.png",
+    "box": [175, 485, 1085, 745],
+    "output": "attachments/202606台州高二_13_图1.png"
+  },
+  {
+    "label": "q14 seat table",
+    "source": "_pdf_pages/202606台州高二/202606台州高二_p05.png",
+    "box": [620, 250, 1035, 475],
+    "output": "attachments/202606台州高二_14_图1.png"
+  },
+  {
+    "label": "q15 registration table",
+    "source": "_pdf_pages/202606台州高二/202606台州高二_p05.png",
+    "box": [625, 1145, 1010, 1408],
+    "output": "attachments/202606台州高二_15_图1.png"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "source": "_tmp/render_202505_xyy/xyy_p02.png",
+    "box": [880, 170, 1220, 730],
+    "output": "attachments/202505县域联盟高二_08_流程图.png",
+    "label": "第8题流程图"
+  },
+  {
+    "source": "_tmp/render_202505_xyy/xyy_p02.png",
+    "box": [830, 750, 1210, 1035],
+    "output": "attachments/202505县域联盟高二_09_成绩表.png",
+    "label": "第9题成绩表"
+  }
+]

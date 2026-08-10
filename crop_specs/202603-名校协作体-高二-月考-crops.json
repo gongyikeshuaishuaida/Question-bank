@@ -1,0 +1,26 @@
+[
+  {
+    "label": "q08 flowchart",
+    "source": "_pdf_pages/202603名校协作体高二月考_p02.png",
+    "box": [700, 650, 1170, 980],
+    "output": "attachments/202603名校协作体高二月考_08_图1.png"
+  },
+  {
+    "label": "q13 sample text",
+    "source": "_pdf_pages/202603名校协作体高二月考_p03.png",
+    "box": [395, 1500, 1045, 1715],
+    "output": "attachments/202603名校协作体高二月考_13_图1.png"
+  },
+  {
+    "label": "q14 data table",
+    "source": "_pdf_pages/202603名校协作体高二月考_p04.png",
+    "box": [80, 1390, 785, 1638],
+    "output": "attachments/202603名校协作体高二月考_14_图1.png"
+  },
+  {
+    "label": "q14 bar chart",
+    "source": "_pdf_pages/202603名校协作体高二月考_p04.png",
+    "box": [760, 1265, 1245, 1638],
+    "output": "attachments/202603名校协作体高二月考_14_图2.png"
+  }
+]

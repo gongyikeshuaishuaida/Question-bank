@@ -1,0 +1,50 @@
+[
+  {
+    "source": "_mineru_output/batch33/images/ea7b0fab50fedaa939c3736b6ca40b315e61a8e2aa683c2eb85bbca7c58d95bc.jpg",
+    "box": null,
+    "output": "attachments/202504绍兴_07_流程图.jpg",
+    "label": "第7题流程图"
+  },
+  {
+    "source": "_mineru_output/batch33/images/b24573e0ad7bb31b8a4cd4b8a20fd90a45a6b342464a26699c70f258d9223976.jpg",
+    "box": null,
+    "output": "attachments/202504绍兴_07_A.jpg",
+    "label": "第7题选项A"
+  },
+  {
+    "source": "_mineru_output/batch33/images/a08c65fc76183787abf0b1495e16c0482f5752d6b2755ba22d4ae4c7b4afccf1.jpg",
+    "box": null,
+    "output": "attachments/202504绍兴_07_B.jpg",
+    "label": "第7题选项B"
+  },
+  {
+    "source": "_mineru_output/batch33/images/9dcabfddf8d507ef5e7291e417cd23b544f6d21ec90f8258ab9d56d0cd441fdb.jpg",
+    "box": null,
+    "output": "attachments/202504绍兴_07_C.jpg",
+    "label": "第7题选项C"
+  },
+  {
+    "source": "_mineru_output/batch33/images/2b52632c49b693c74b8751e2b725df3937c57c4511181c4d0655cb6fb324b8fb.jpg",
+    "box": null,
+    "output": "attachments/202504绍兴_07_D.jpg",
+    "label": "第7题选项D"
+  },
+  {
+    "source": "_mineru_output/batch33/images/63953e87348a5a153a941bfa99fb1391770cb7d74290f6750c96c265c3d4317a.jpg",
+    "box": null,
+    "output": "attachments/202504绍兴_14_图a.jpg",
+    "label": "第14题图a数据表"
+  },
+  {
+    "source": "_mineru_output/batch33/images/a76ad98393ed42c90f8170f6999ede0507c5516c60f8020726b034e920aa61e8.jpg",
+    "box": null,
+    "output": "attachments/202504绍兴_14_图b.jpg",
+    "label": "第14题图b线形图"
+  },
+  {
+    "source": "_mineru_output/batch33/images/1b20c433bab2554e79e405d883f09682ebef0762347d9938c89881e49ea44d27.jpg",
+    "box": null,
+    "output": "attachments/202504绍兴_15_图.jpg",
+    "label": "第15题成绩区间与基础分表"
+  }
+]

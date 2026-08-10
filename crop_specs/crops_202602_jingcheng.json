@@ -1,0 +1,32 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202602_jingcheng_p02.png",
+    "box": [340, 282, 675, 565],
+    "output": "attachments/202602精诚联盟期初_07_图1.png"
+  },
+  {
+    "label": "q14 line chart",
+    "source": "_pdf_pages/202602_jingcheng_p04.png",
+    "box": [590, 1010, 965, 1290],
+    "output": "attachments/202602精诚联盟期初_14_图1.png"
+  },
+  {
+    "label": "q14 sample output",
+    "source": "_pdf_pages/202602_jingcheng_p05.png",
+    "box": [240, 740, 830, 840],
+    "output": "attachments/202602精诚联盟期初_14_图2.png"
+  },
+  {
+    "label": "q15 appointment output",
+    "source": "_pdf_pages/202602_jingcheng_p06.png",
+    "box": [270, 395, 775, 535],
+    "output": "attachments/202602精诚联盟期初_15_图1.png"
+  },
+  {
+    "label": "q15 free time output",
+    "source": "_pdf_pages/202602_jingcheng_p06.png",
+    "box": [270, 540, 775, 670],
+    "output": "attachments/202602精诚联盟期初_15_图2.png"
+  }
+]

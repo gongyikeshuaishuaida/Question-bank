@@ -1,0 +1,14 @@
+[
+  {
+    "label": "第08题流程图",
+    "source": "_pdf_pages/202504_strong_apr/strong_p01.png",
+    "output": "attachments/202504强基高二_08_图1.png",
+    "box": [4220, 1220, 4777, 1540]
+  },
+  {
+    "label": "第14题图b数据表",
+    "source": "_pdf_pages/202504_strong_apr/strong_p02.png",
+    "output": "attachments/202504强基高二_14_图b.png",
+    "box": [4140, 980, 4770, 1330]
+  }
+]

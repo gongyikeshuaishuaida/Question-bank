@@ -1,0 +1,38 @@
+[
+  {
+    "source": "_mineru_output/downloads11_11_xinzhen_paper/images/42261278092bbafd5c2e16367bf81bc2a5e39f20a95a775c58dd42398951e43e.jpg",
+    "box": [0, 0, 1310, 465],
+    "output": "attachments/202502新阵地_07_图1.jpg",
+    "label": "202502 新阵地第7题四个分段收费流程图"
+  },
+  {
+    "source": "_mineru_output/downloads11_11_xinzhen_paper/images/547091673dc34b4807f5b9aba891035a3c23647ba8ff7bd49716967bdcba129b.jpg",
+    "box": [0, 0, 248, 206],
+    "output": "attachments/202502新阵地_09_图1.jpg",
+    "label": "202502 新阵地第9题二叉树"
+  },
+  {
+    "source": "_mineru_output/downloads11_11_xinzhen_paper/images/cc029a34845a883be1649739c248b0c369f12792ee3bde71074b8fcbb27ebab0.jpg",
+    "box": [0, 0, 534, 311],
+    "output": "attachments/202502新阵地_14_图1.jpg",
+    "label": "202502 新阵地第14题车辆数据表"
+  },
+  {
+    "source": "_mineru_output/downloads11_11_xinzhen_paper/images/a226f3e0ed274684bd62f8394be928788c50d935c0065de6063502c581f9586d.jpg",
+    "box": [0, 0, 529, 337],
+    "output": "attachments/202502新阵地_14_图2.jpg",
+    "label": "202502 新阵地第14题超速平均车速柱形图"
+  },
+  {
+    "source": "_mineru_output/downloads11_11_xinzhen_paper/images/3fa452951cf65baac9576c4603f0d9a5bd50b57ad93286a9e9e250e16dd7d016.jpg",
+    "box": [0, 0, 329, 227],
+    "output": "attachments/202502新阵地_15_图1.jpg",
+    "label": "202502 新阵地第15题考生信息表"
+  },
+  {
+    "source": "_mineru_output/downloads11_11_xinzhen_paper/images/de9d0566ed9fb057179ba2964652533f94b16ec7dd45fb5430b70cb3a8c160cd.jpg",
+    "box": [0, 0, 420, 175],
+    "output": "attachments/202502新阵地_15_图2.jpg",
+    "label": "202502 新阵地第15题查找结果"
+  }
+]

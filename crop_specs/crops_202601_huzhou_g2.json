@@ -1,0 +1,26 @@
+[
+  {
+    "label": "202601湖州高二期末-06-题图1",
+    "source": "_pdf_pages/202601_huzhou_g2_p02.png",
+    "output": "attachments/202601湖州高二期末_06_题图1.png",
+    "box": [785, 150, 1050, 535]
+  },
+  {
+    "label": "202601湖州高二期末-13-题图1",
+    "source": "_pdf_pages/202601_huzhou_g2_p03.png",
+    "output": "attachments/202601湖州高二期末_13_题图1.png",
+    "box": [180, 1040, 985, 1335]
+  },
+  {
+    "label": "202601湖州高二期末-14-题图1",
+    "source": "_pdf_pages/202601_huzhou_g2_p04.png",
+    "output": "attachments/202601湖州高二期末_14_题图1.png",
+    "box": [195, 1205, 930, 1445]
+  },
+  {
+    "label": "202601湖州高二期末-15-题图1",
+    "source": "_pdf_pages/202601_huzhou_g2_p05.png",
+    "output": "attachments/202601湖州高二期末_15_题图1.png",
+    "box": [240, 990, 920, 1305]
+  }
+]

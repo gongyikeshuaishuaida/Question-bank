@@ -1,0 +1,26 @@
+[
+  {
+    "source": "_mineru_output/downloads11_07_shaoxing_paper/images/60d945138a9ff54c44cc93f3b5eabcaf05cab4bdb558c3541b0be77d671a5a21.jpg",
+    "box": [0, 0, 437, 423],
+    "output": "attachments/202501绍兴_08_图1.jpg",
+    "label": "202501 绍兴第8题算法流程图"
+  },
+  {
+    "source": "_mineru_output/downloads11_07_shaoxing_paper/images/05338e60fa06a12e441e1d73ffe81dc035675bc851f69ad30d6ef6e3bb34e3a6.jpg",
+    "box": [0, 0, 878, 421],
+    "output": "attachments/202501绍兴_10_图1.jpg",
+    "label": "202501 绍兴第10题选科数据表"
+  },
+  {
+    "source": "_mineru_output/downloads11_07_shaoxing_paper/images/6189d42a593b0de10454a5b9e863a79841adf199942ea978096ca1bc66766bb8.jpg",
+    "box": [0, 0, 429, 162],
+    "output": "attachments/202501绍兴_10_图2.jpg",
+    "label": "202501 绍兴第10题程序运行结果"
+  },
+  {
+    "source": "_mineru_output/downloads11_07_shaoxing_paper/images/729a9f020dbe72a3e9938993ce7cfa99b582bdaab45491bf1bec20e49b9536b1.jpg",
+    "box": [0, 0, 1087, 373],
+    "output": "attachments/202501绍兴_11_图1.jpg",
+    "label": "202501 绍兴第11题环境监测系统结构图"
+  }
+]

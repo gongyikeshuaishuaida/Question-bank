@@ -1,0 +1,44 @@
+[
+  {
+    "label": "q08 flowchart",
+    "source": "_pdf_pages/202606宁波高二/202606宁波高二_p02.png",
+    "box": [670, 690, 1025, 1160],
+    "output": "attachments/202606宁波高二_08_图1.png"
+  },
+  {
+    "label": "q13 route table",
+    "source": "_pdf_pages/202606宁波高二/202606宁波高二_p04.png",
+    "box": [175, 845, 875, 935],
+    "output": "attachments/202606宁波高二_13_图1.png"
+  },
+  {
+    "label": "q13 source data table",
+    "source": "_pdf_pages/202606宁波高二/202606宁波高二_p05.png",
+    "box": [640, 115, 950, 270],
+    "output": "attachments/202606宁波高二_13_图2.png"
+  },
+  {
+    "label": "q13 hourly noise chart",
+    "source": "_pdf_pages/202606宁波高二/202606宁波高二_p05.png",
+    "box": [330, 410, 840, 660],
+    "output": "attachments/202606宁波高二_13_图3.png"
+  },
+  {
+    "label": "q14 lighting records",
+    "source": "_pdf_pages/202606宁波高二/202606宁波高二_p05.png",
+    "box": [280, 1125, 810, 1360],
+    "output": "attachments/202606宁波高二_14_图1.png"
+  },
+  {
+    "label": "q15 time score table",
+    "source": "_pdf_pages/202606宁波高二/202606宁波高二_p07.png",
+    "box": [190, 110, 865, 320],
+    "output": "attachments/202606宁波高二_15_图1.png"
+  },
+  {
+    "label": "q15 result table",
+    "source": "_pdf_pages/202606宁波高二/202606宁波高二_p08.png",
+    "box": [600, 970, 930, 1135],
+    "output": "attachments/202606宁波高二_15_图2.png"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "source": "_pdf_pages/downloads_2_20260731/001-qicai/202502qicai_p02.png",
+    "box": [270, 365, 645, 780],
+    "output": "attachments/202502七彩阳光_07_图1.png",
+    "label": "202502 七彩阳光第07题流程图"
+  },
+  {
+    "source": "_pdf_pages/downloads_2_20260731/001-qicai/202502qicai_p03.png",
+    "box": [425, 750, 910, 990],
+    "output": "attachments/202502七彩阳光_12_图1.png",
+    "label": "202502 七彩阳光第12题链表结构图a和b"
+  },
+  {
+    "source": "_pdf_pages/downloads_2_20260731/001-qicai/202502qicai_p03.png",
+    "box": [510, 990, 835, 1245],
+    "output": "attachments/202502七彩阳光_12_图2.png",
+    "label": "202502 七彩阳光第12题链表结构图c"
+  },
+  {
+    "source": "_pdf_pages/downloads_2_20260731/001-qicai/202502qicai_p05.png",
+    "box": [240, 770, 710, 1125],
+    "output": "attachments/202502七彩阳光_14_图1.png",
+    "label": "202502 七彩阳光第14题柱形图"
+  }
+]

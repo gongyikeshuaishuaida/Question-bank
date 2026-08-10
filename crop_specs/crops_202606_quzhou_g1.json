@@ -1,0 +1,20 @@
+[
+  {
+    "label": "q06 base-3 conversion flowchart",
+    "source": "_pdf_pages/202606衢州高一/202606衢州高一_p02.png",
+    "box": [820, 40, 1180, 520],
+    "output": "attachments/202606衢州高一_06_图1.png"
+  },
+  {
+    "label": "q13 delivery fee flowchart",
+    "source": "_pdf_pages/202606衢州高一/202606衢州高一_p04.png",
+    "box": [555, 370, 1160, 760],
+    "output": "attachments/202606衢州高一_13_图1.png"
+  },
+  {
+    "label": "q15 crop health region diagrams",
+    "source": "_pdf_pages/202606衢州高一/202606衢州高一_p05.png",
+    "box": [180, 330, 1060, 680],
+    "output": "attachments/202606衢州高一_15_图1.png"
+  }
+]

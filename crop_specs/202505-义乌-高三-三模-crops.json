@@ -1,0 +1,26 @@
+[
+  {
+    "source": "_tmp/audit_pages/yiwu/p_p02.png",
+    "box": [1000, 210, 1350, 720],
+    "output": "attachments/202505义乌_07_流程图.jpg",
+    "label": "第7题流程图"
+  },
+  {
+    "source": "_mineru_output/images/072089026a99404274bd0c2b8ed3c49fbbf2dca094624ffee5cc812b1ceaf9d8.jpg",
+    "box": null,
+    "output": "attachments/202505义乌_14_柱形图.jpg",
+    "label": "第14题图b各学校科目达标人数柱形图"
+  },
+  {
+    "source": "_rendered_pages/batch39/page_p04.png",
+    "box": [220, 300, 1135, 585],
+    "output": "attachments/202505义乌_14_数据表.jpg",
+    "label": "第14题图a成绩数据表"
+  },
+  {
+    "source": "_rendered_pages/batch39/page_p06.png",
+    "box": [790, 1110, 1105, 1460],
+    "output": "attachments/202505义乌_15_运行示例.jpg",
+    "label": "第15题输入输出运行示例"
+  }
+]

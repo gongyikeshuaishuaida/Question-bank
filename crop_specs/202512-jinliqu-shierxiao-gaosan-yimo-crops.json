@@ -1,0 +1,14 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202512-jinliqu/202512-jinliqu_p02.png",
+    "box": [815, 700, 1270, 1138],
+    "output": "attachments/202512金丽衢_07_图1.png"
+  },
+  {
+    "label": "q14 data table",
+    "source": "_pdf_pages/202512-jinliqu/202512-jinliqu_p05.png",
+    "box": [715, 245, 1165, 875],
+    "output": "attachments/202512金丽衢_14_图1.png"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "label": "q14 data and subsidy tables",
+    "source": "_pdf_pages/202602_nbjx_p04.png",
+    "box": [175, 705, 975, 1025],
+    "output": "attachments/202602宁波九校高二期末_14_题图1.png"
+  },
+  {
+    "label": "q15 storage allocation table",
+    "source": "_pdf_pages/202602_nbjx_p05.png",
+    "box": [105, 845, 1045, 1150],
+    "output": "attachments/202602宁波九校高二期末_15_题图1.png"
+  }
+]

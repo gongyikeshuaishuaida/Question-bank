@@ -33,13 +33,17 @@ def main() -> int:
     for item in load_spec(args.spec):
         source = args.base_dir / item["source"]
         output = args.base_dir / item["output"]
-        box = tuple(item["box"])
-        if len(box) != 4:
-            raise ValueError(f"Invalid box for {output}: {box}")
-
         output.parent.mkdir(parents=True, exist_ok=True)
         image = Image.open(source)
-        image.crop(box).save(output)
+        box_value = item.get("box")
+        if box_value is None:
+            image.save(output)
+            box = None
+        else:
+            box = tuple(box_value)
+            if len(box) != 4:
+                raise ValueError(f"Invalid box for {output}: {box}")
+            image.crop(box).save(output)
         count += 1
         label = item.get("label", output.name)
         print(f"{label}: {source} {box} -> {output}")

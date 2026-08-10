@@ -9,3 +9,15 @@ venv/
 _web_imports/
 _exports/
 web_app/.cache/
+
+# Local extraction, rendering, and review workspaces
+_docx_qa/
+_extracted/
+_mineru_output/
+_pdf_pages/
+_rendered_pages/
+_tmp/
+_work/
+_work_e_net_pages/
+.superpowers/
+.uploads/

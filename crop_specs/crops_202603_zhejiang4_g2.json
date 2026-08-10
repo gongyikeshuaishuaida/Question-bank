@@ -1,0 +1,26 @@
+[
+  {
+    "label": "q07 flowchart",
+    "source": "_pdf_pages/202603_zhejiang4_g2_p02.png",
+    "box": [400, 420, 815, 895],
+    "output": "attachments/202603浙江四校高二_07_图1.png"
+  },
+  {
+    "label": "q13 excel data",
+    "source": "_pdf_pages/202603_zhejiang4_g2_p04.png",
+    "box": [380, 545, 995, 840],
+    "output": "attachments/202603浙江四校高二_13_图a.png"
+  },
+  {
+    "label": "q13 top three output",
+    "source": "_pdf_pages/202603_zhejiang4_g2_p05.png",
+    "box": [420, 275, 790, 505],
+    "output": "attachments/202603浙江四校高二_13_图b.png"
+  },
+  {
+    "label": "q13 bar chart",
+    "source": "_pdf_pages/202603_zhejiang4_g2_p05.png",
+    "box": [395, 520, 860, 925],
+    "output": "attachments/202603浙江四校高二_13_图c.png"
+  }
+]

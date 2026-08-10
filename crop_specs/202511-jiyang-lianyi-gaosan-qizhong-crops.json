@@ -1,0 +1,20 @@
+[
+  {
+    "label": "q07-flowchart",
+    "source": "_pdf_pages/202511-jiyang/202511_jiyang_p02.png",
+    "box": [1048, 105, 1450, 645],
+    "output": "attachments/202511稽阳联谊_07_图1.png"
+  },
+  {
+    "label": "q14-figures",
+    "source": "_pdf_pages/202511-jiyang/202511_jiyang_p04.png",
+    "box": [205, 125, 1455, 635],
+    "output": "attachments/202511稽阳联谊_14_图1.png"
+  },
+  {
+    "label": "q15-operation-table",
+    "source": "_pdf_pages/202511-jiyang/202511_jiyang_p05.png",
+    "box": [105, 760, 1285, 1025],
+    "output": "attachments/202511稽阳联谊_15_图1.png"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "source": "_mineru_output/downloads11_14_tianyu_paper/images/4d41787bb911310fe7a1d3bfd097e77ca88db78787c0c45089c5df6e9e50a8ce.jpg",
+    "box": [0, 0, 462, 645],
+    "output": "attachments/202503天域协作体高三_07_图1.jpg",
+    "label": "202503 天域协作体高三第7题流程图"
+  },
+  {
+    "source": "_pdf_pages/downloads11_14_tianyu/page_p03.png",
+    "box": [135, 815, 1015, 925],
+    "output": "attachments/202503天域协作体高三_13_图1.png",
+    "label": "202503 天域协作体高三第13题抽奖结果"
+  },
+  {
+    "source": "_pdf_pages/downloads11_14_tianyu/page_p03.png",
+    "box": [430, 992, 1025, 1130],
+    "output": "attachments/202503天域协作体高三_13_图2.png",
+    "label": "202503 天域协作体高三第13题函数方法表"
+  },
+  {
+    "source": "_pdf_pages/downloads11_14_tianyu/page_p04.png",
+    "box": [85, 910, 635, 1240],
+    "output": "attachments/202503天域协作体高三_14_图1.png",
+    "label": "202503 天域协作体高三第14题水位数据表"
+  },
+  {
+    "source": "_mineru_output/downloads11_14_tianyu_paper/images/0006b6c9cad98137f72d0103d5a7b62f78d03c33424c162172005abd381da280.jpg",
+    "box": [0, 0, 570, 401],
+    "output": "attachments/202503天域协作体高三_14_图2.jpg",
+    "label": "202503 天域协作体高三第14题每日饮水量图"
+  },
+  {
+    "source": "_pdf_pages/downloads11_14_tianyu/page_p05.png",
+    "box": [605, 1035, 1015, 1240],
+    "output": "attachments/202503天域协作体高三_15_图1.png",
+    "label": "202503 天域协作体高三第15题运行结果"
+  }
+]

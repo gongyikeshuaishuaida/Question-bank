@@ -1,0 +1,26 @@
+[
+  {
+    "source": "_rendered_pages/batch40/page_p01.png",
+    "box": [800, 1300, 1295, 1760],
+    "output": "attachments/202505衢州六校_07_流程图.jpg",
+    "label": "第7题满减流程图（人工清除裁图区外文字）"
+  },
+  {
+    "source": "_mineru_output/images/0e729f58e65be0275b654beba54a4e09eb7c4b5841086415775d635bdef7b1b7.jpg",
+    "box": null,
+    "output": "attachments/202505衢州六校_14_柱形图.jpg",
+    "label": "第14题图b路口24小时车流量变化图"
+  },
+  {
+    "source": "_rendered_pages/batch40/page_p04.png",
+    "box": [300, 90, 770, 420],
+    "output": "attachments/202505衢州六校_14_数据表.jpg",
+    "label": "第14题图a交通数据表"
+  },
+  {
+    "source": "_rendered_pages/batch40/page_p05.png",
+    "box": [430, 405, 850, 680],
+    "output": "attachments/202505衢州六校_15_预约表.jpg",
+    "label": "第15题图a预约任务表"
+  }
+]

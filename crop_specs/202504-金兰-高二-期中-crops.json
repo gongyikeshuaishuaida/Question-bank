@@ -1,0 +1,14 @@
+[
+  {
+    "label": "第07题流程图",
+    "source": "_pdf_pages/202504_jinlan/jl_p02.png",
+    "output": "attachments/202504金兰高二_07_图1.png",
+      "box": [675, 55, 1010, 525]
+  },
+  {
+    "label": "第14题图c湿度统计折线图",
+    "source": "_pdf_pages/202504_jinlan/jl_p04.png",
+    "output": "attachments/202504金兰高二_14_图c.jpg",
+    "box": [430, 900, 1015, 1325]
+  }
+]

@@ -13,12 +13,13 @@ REQUIRED_FIELDS = [
     "题型",
     "来源",
     "试卷",
+    "年级",
     "题号",
     "难度",
     "知识点",
     "完成次数",
+    "补课",
     "正确率",
-    "状态",
     "错题原因",
     "创建日期",
     "图片核验",
@@ -26,9 +27,15 @@ REQUIRED_FIELDS = [
 ]
 
 STALE_TERMS = ["正确次数", "下次复习", "上次练习", "待补充"]
+FORBIDDEN_FRONTMATTER_FIELDS = ["状态"]
+
+
+def split_markdown_table_row(line: str) -> list[str]:
+    return [cell.strip() for cell in line.strip().strip("|").split("|")]
 
 
 def read_frontmatter(text: str) -> dict[str, str]:
+    text = text.lstrip("\ufeff")
     if not text.startswith("---\n"):
         return {}
     end = text.find("\n---", 4)
@@ -53,18 +60,71 @@ def section_text(text: str, heading: str) -> str:
     return text[start:end].strip()
 
 
+def question_body(text: str) -> str:
+    match = re.search(r"^# 题目 \d{2}\s*$", text, flags=re.MULTILINE)
+    if not match:
+        return ""
+    start = match.end()
+    answer_match = re.search(r"\n---\n\n## 答案\s*$", text[start:], flags=re.MULTILINE)
+    end = start + answer_match.start() if answer_match else len(text)
+    return text[start:end].strip()
+
+
+def strip_code_blocks(text: str) -> str:
+    return re.sub(r"```[\s\S]*?```", "", text)
+
+
+def bare_choice_option_lines(body: str) -> list[int]:
+    body = strip_code_blocks(body)
+    lines: list[int] = []
+    for lineno, line in enumerate(body.splitlines(), start=1):
+        if re.match(r"^\s*[ABCD][\.．、](?:\s|$)", line):
+            lines.append(lineno)
+    return lines
+
+
+def choice_question_numbers(body: str) -> list[int]:
+    markers = [
+        (int(match.group(1)), match.start())
+        for match in re.finditer(r"(?m)^\s*(\d{1,2})[\.．、]\s+", body)
+    ]
+    numbers: list[int] = []
+    for idx, (number, start) in enumerate(markers):
+        end = markers[idx + 1][1] if idx + 1 < len(markers) else len(body)
+        segment = body[start:end]
+        options = set(re.findall(r"(?m)^\s*(?:- )?([ABCD])[\.．、]", segment))
+        if len(options) >= 4 or ("（   ）" in segment and "![[" in segment):
+            numbers.append(number)
+    return numbers
+
+
+def material_question_mentions(body: str) -> list[int]:
+    numbers = {
+        int(match.group(1))
+        for match in re.finditer(r"回答第?\s*0*(\d{1,2})\s*题", body)
+    }
+    for match in re.finditer(r"回答第?\s*0*(\d{1,2})\s*至\s*0*(\d{1,2})\s*题", body):
+        start = int(match.group(1))
+        end = int(match.group(2))
+        numbers.update(range(start, end + 1))
+    return sorted(numbers)
+
+
 def iter_notes(root: Path, prefix: str | None) -> list[Path]:
     files = sorted(
         path
         for path in root.rglob("*.md")
-        if path.parent.name[:2].isdigit()
+        if path.parent.name[:2].isdigit() or "00真题" in path.relative_to(root).parts
     )
     if prefix:
         files = [path for path in files if path.name.startswith(prefix)]
     return [
         path
         for path in files
-        if not any(part in {".obsidian", ".codex-skills", "scripts"} for part in path.parts)
+        if not any(
+            part in {".obsidian", ".codex-skills", "scripts", "_mineru_output", "_extracted"}
+            for part in path.parts
+        )
     ]
 
 
@@ -80,6 +140,9 @@ def validate_note(root: Path, path: Path) -> list[str]:
     for field in REQUIRED_FIELDS:
         if field not in meta:
             errors.append(f"{rel}: missing field {field}")
+    for field in FORBIDDEN_FRONTMATTER_FIELDS:
+        if field in meta:
+            errors.append(f"{rel}: contains removed field {field}")
 
     note_id = meta.get("id")
     if note_id and note_id != path.stem:
@@ -96,6 +159,29 @@ def validate_note(root: Path, path: Path) -> list[str]:
     if not analysis:
         errors.append(f"{rel}: empty or missing ## 解析")
 
+    body = question_body(text)
+    bare_option_lines = bare_choice_option_lines(body)
+    if bare_option_lines:
+        preview = ", ".join(str(line) for line in bare_option_lines[:8])
+        if len(bare_option_lines) > 8:
+            preview += ", ..."
+        errors.append(f"{rel}: ABCD options must use '- A.' list format, bare option line(s) {preview}")
+
+    if meta.get("题型") == "选择题" and re.search(r"阅读.{0,20}材料", body):
+        try:
+            note_q = int(meta.get("题号", "0"))
+        except ValueError:
+            note_q = 0
+        question_numbers = sorted(set(choice_question_numbers(body)) | set(material_question_mentions(body)))
+        if note_q and note_q not in question_numbers:
+            errors.append(f"{rel}: material choice note missing current question {note_q:02d}")
+        extra_questions = [q for q in question_numbers if q != note_q]
+        if extra_questions:
+            errors.append(
+                f"{rel}: material choice note includes other question(s) "
+                + ", ".join(f"{q:02d}" for q in extra_questions)
+            )
+
     embeds = re.findall(r"!\[\[attachments/([^\]]+)\]\]", text)
     image_status = meta.get("图片核验", "")
     if embeds and image_status == "无图片":
@@ -110,6 +196,24 @@ def validate_note(root: Path, path: Path) -> list[str]:
     return errors
 
 
+def validate_review_table(root: Path) -> list[str]:
+    path = root / "题目核验.md"
+    if not path.exists():
+        return []
+
+    errors: list[str] = []
+    for lineno, line in enumerate(path.read_text(encoding="utf-8").splitlines(), start=1):
+        stripped = line.strip()
+        if not stripped.startswith("|"):
+            continue
+        cells = split_markdown_table_row(stripped)
+        if len(cells) != 4:
+            errors.append(f"题目核验.md:{lineno}: table row has {len(cells)} columns, expected 4")
+        if re.search(r"\[\[[^\]]+\|[^\]]+\]\]", stripped):
+            errors.append(f"题目核验.md:{lineno}: table link must not use wiki alias syntax with |")
+    return errors
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path("."))
@@ -121,6 +225,7 @@ def main() -> int:
     notes = iter_notes(root, args.prefix)
     for path in notes:
         errors.extend(validate_note(root, path))
+    errors.extend(validate_review_table(root))
 
     for error in errors:
         print(f"ERROR: {error}")
